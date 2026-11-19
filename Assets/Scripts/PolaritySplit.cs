@@ -86,13 +86,13 @@ public class PolaritySplit : MonoBehaviour
             BoxCollider2D cloneCollider = clone.AddComponent<BoxCollider2D>();
             cloneCollider.size = playerBox.size;
             cloneCollider.offset = playerBox.offset;
-            cloneCollider.isTrigger = false;
+            cloneCollider.isTrigger = true;
         }
         else
         {
             CircleCollider2D cloneCollider = clone.AddComponent<CircleCollider2D>();
             cloneCollider.radius = 0.35f;
-            cloneCollider.isTrigger = false;
+            cloneCollider.isTrigger = true;
         }
 
         return clone;

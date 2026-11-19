@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.8f1 (f8b72d3d7343) revision 16299821'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 24283 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX" at "2026-11-03T11:01:33.7532163Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o1DUvysC1U6YXu8XwRaN7" at "2026-11-19T04:47:08.7443661Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 24351 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-03T11:01:33Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19852, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-11-19T04:47:08Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8132, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              dc9415f813b04055811ae6a9af093c55
-  Correlation Id:          5ca4fcd1745aa039e678542cffc9783c
-  External correlation Id: 5285439644597821370
+  Session Id:              7bbe673c35154488a4e48b55ee4e64ee
+  Correlation Id:          5c898580439665cfc9f2072bf6095ea7
+  External correlation Id: 6175346534890855511
   Machine Id:              xxlszU6pM1W9CvH3y/F/08KRFHc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX-notifications" at "2026-11-03T11:01:33.7970546Z"
-[Licensing::Module] Licensing Background thread has ended after 0.04s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-o1DUvysC1U6YXu8XwRaN7" (connect: 0.00s, validation: 0.01s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o1DUvysC1U6YXu8XwRaN7-notifications" at "2026-11-19T04:47:08.8054106Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Unity.exe
@@ -30,9 +30,9 @@ C:/Users/NGH/RoverPolarity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50096
+54753
 -licensingIpc
-LicenseClient-kTEzXDKSQ15f8zyJQ-odX
+LicenseClient-o1DUvysC1U6YXu8XwRaN7
 -force-d3d12
 -job-worker-count
 5
@@ -79,12 +79,12 @@ C:/Users/NGH/RoverPolarity
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [23252]  Target information:
+Player connection [13832]  Target information:
 
-Player connection [23252]  * "[IP] 192.168.102.17 [Port] 0 [Flags] 2 [Guid] 2311015691 [EditorId] 2311015691 [Version] 1048832 [Id] WindowsEditor(7,huyandpeach) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13832]  * "[IP] 192.168.102.10 [Port] 0 [Flags] 2 [Guid] 3635393471 [EditorId] 3635393471 [Version] 1048832 [Id] WindowsEditor(7,huyandpeach) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23252] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23252] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13832] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13832] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -96,7 +96,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.90 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 8.89 ms, found 6 plugins.
 Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/NGH/RoverPolarity/Assets
@@ -114,13 +114,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002016 seconds.
+Registered in 0.002658 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -129,23 +129,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.370 seconds
-Domain Reload Profiling: 774ms
-	BeginReloadAssembly (123ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (119ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (159ms)
-	FinalizeReload (371ms)
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (159ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (156ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (237ms)
+	FinalizeReload (531ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -198,7 +198,7 @@ Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 3.80 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -207,570 +207,930 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 3.27 ms, found 6 plugins.
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 4.30 ms, found 6 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.618 seconds
-Domain Reload Profiling: 2749ms
-	BeginReloadAssembly (160ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (828ms)
-		LoadAssemblies (467ms)
-		AnalyzeDomain (444ms)
-			TypeCache.Refresh (346ms)
-				TypeCache.ScanAssembly (324ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1618ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (908ms)
-			ProcessInitializeOnLoadMethodAttributes (353ms)
-			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11086 unused Assets / (23.2 MB). Loaded Objects now: 11941.
-Memory consumption went from 236.5 MB to 213.3 MB.
-Total: 24.070700 ms (FindLiveObjects: 0.919900 ms CreateObjectMapping: 0.946300 ms MarkObjects: 16.782900 ms  DeleteObjects: 5.419100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 507079.538648 seconds.
-  path: Assets/PlayerAnimations/Animations/New Animation.anim
-  importAddress: Guid(d0bcdfa31aa04b446afea7da99734667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/PlayerAnimations/Animations/New Animation.anim using Guid(d0bcdfa31aa04b446afea7da99734667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce64d29debfe9cf61bd3ff41652c87d1') in 0.1023431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da7010d70efef591b0b81a9f2e4acc3a DependenciesID=5fa0eef2d4c9238054aae293e4a7c6fa StaticDependenciesID=eed57e8816e225ae72768854334bcb73 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 189.204167 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Attack.png
-  importAddress: Guid(77eb5f6454af20a439335a0a923065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Attack.png using Guid(77eb5f6454af20a439335a0a923065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bbd75510ffb874446a41af8df5beeb84') in 0.1346194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1e2d5dc8dc43059e9d8b6afd262c53d DependenciesID=e3e16f89a76d119c03dcc5ef1921760e StaticDependenciesID=262d96ee5673d2ab8e9789b34d114e06 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.774956 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Attack.png
-  importAddress: Guid(77eb5f6454af20a439335a0a923065dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Attack.png using Guid(77eb5f6454af20a439335a0a923065dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '223de72cc73574bf89249ea36f9760ba') in 0.0650889 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aa4ae9f2cf711d498f3b67bc11ef28b DependenciesID=52b0b3bec757f2c74d73c75d51936ccd StaticDependenciesID=f5591cb51446c5edf828580a91fd8504 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.244552 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Death.png
-  importAddress: Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Death.png using Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'baefb9729ef2b66069c1ebb45ce27658') in 0.0937949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42fc13c35eaa80ff45476a1754f4c308 DependenciesID=b67b1b5307555e75663c2ebfaedc96e3 StaticDependenciesID=f657afa7290e8dce62d194e2f956454d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.844865 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Death.png
-  importAddress: Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Death.png using Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e385cdb0ba75ef8fcfc8f4604eee187') in 0.0347478 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=820b342d408938d6e07e7e0d4c2df4a1 DependenciesID=2c9cc6163e43a2589cee824ed2fb9a0a StaticDependenciesID=5cf61a6b2e347f9e1ca85bbf29a21177 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.600829 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Fall.png
-  importAddress: Guid(862a51da390209a4faea1934a3c2c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Fall.png using Guid(862a51da390209a4faea1934a3c2c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2831a58321b7f3dd4d397d7f061e1c55') in 0.0356732 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0e41530031cc0dcd8a6496203d886ba DependenciesID=5eeb7d7c0eb5e3cb817a4cf53c2bdfc8 StaticDependenciesID=b82228d60b40d47b1859243506dd1bff 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.895192 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Fall.png
-  importAddress: Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Fall.png using Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9dcfb04cb5964a3783d6571189c80aed') in 0.0322442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4e0673d7c7a0d8774805bc5824e9212 DependenciesID=3aa326346133895f66d89721ea0765f4 StaticDependenciesID=788383c53da9d1882fe9fc56b96d23d4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.816592 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Get hit.png
-  importAddress: Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Get hit.png using Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a5a316d8b2cdbfd004221499f98c33ef') in 0.0284946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80744b156978e089f32afe734f40a51a DependenciesID=2d9805947e66e0f7eeab0317db288cab StaticDependenciesID=099600dee13159d8a44302c486fd544f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.901452 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Get hit.png
-  importAddress: Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Get hit.png using Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '88d81aee5647672143f75f3e2af7c942') in 0.0312883 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07a8d1f8d381e58608d5927d83785381 DependenciesID=c5bc801daee75b9b23962b6f02f899bd StaticDependenciesID=e5653d695694da2df7387606fcd463c2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.109606 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Walk.png
-  importAddress: Guid(05e0a75274ead9e47b322de0fea771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Walk.png using Guid(05e0a75274ead9e47b322de0fea771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c63c50f7f78bbe4cddfd5a9899af85ec') in 0.0467692 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e4b2c29a5832b415559449fa1a141d8 DependenciesID=5e80d226cbd109d245dfe2dba1aa7e87 StaticDependenciesID=020c94a3758dab09c7aa856b6af3a883 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.878422 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Walk.png
-  importAddress: Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Walk.png using Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a101e9571431cb73d0aad0b55bf22b7') in 0.026024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec3073f4ea8532555ea2204c8789c9fc DependenciesID=de68369b38a666a7e6cf1cf9870ab51d StaticDependenciesID=3f8c8f7d48cba2dd9510818472a2a3b3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.30 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.39 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.945 seconds
-Domain Reload Profiling: 3405ms
-	BeginReloadAssembly (310ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (105ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (969ms)
-		LoadAssemblies (588ms)
-		AnalyzeDomain (482ms)
-			TypeCache.Refresh (12ms)
-			BuildScriptInfoCaches (453ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1945ms)
+- Finished resetting the current domain, in  2.119 seconds
+Domain Reload Profiling: 3574ms
+	BeginReloadAssembly (199ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (1056ms)
+		LoadAssemblies (594ms)
+		AnalyzeDomain (561ms)
+			TypeCache.Refresh (442ms)
+				TypeCache.ScanAssembly (416ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2119ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (867ms)
-			ProcessInitializeOnLoadMethodAttributes (519ms)
+			BeforeProcessingInitializeOnLoad (254ms)
+			ProcessInitializeOnLoadAttributes (1180ms)
+			ProcessInitializeOnLoadMethodAttributes (452ms)
 			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.95 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 6 plugins.
 Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (22.9 MB). Loaded Objects now: 11956.
-Memory consumption went from 240.1 MB to 217.2 MB.
-Total: 24.008800 ms (FindLiveObjects: 0.986300 ms CreateObjectMapping: 1.075800 ms MarkObjects: 13.943900 ms  DeleteObjects: 8.001300 ms)
+Unloading 11086 unused Assets / (23.2 MB). Loaded Objects now: 11941.
+Memory consumption went from 236.2 MB to 212.9 MB.
+Total: 23.078800 ms (FindLiveObjects: 2.197900 ms CreateObjectMapping: 1.000900 ms MarkObjects: 13.501700 ms  DeleteObjects: 6.375800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 344.560620 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png
-  importAddress: Guid(5f553a31b529d8d4a9ecec5dc905e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png using Guid(5f553a31b529d8d4a9ecec5dc905e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3b3b288d0ee83ff30b152ab690672e52') in 0.1031551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=201dcc5c93d7c32b24ff382c01c3f393 DependenciesID=90779891980b912c43ad138f91cde977 StaticDependenciesID=2d4300eb4a2c37b27ebfc75f5a47cb26 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 143290.416428 seconds.
+  path: Assets/Scenes/Level1.unity
+  importAddress: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6d4685e9c3e8fba4891b397780b9ce3f') in 0.0256996 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2f8065e025a4d115316dcc7c41f624f DependenciesID=8367b36297f4f04b18bd17243dcd849b StaticDependenciesID=1590ad48e6c022063ae522f12a61b387 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2020.134971 seconds.
+  path: Assets/Tiny Platformer - Forest Asset Pack/Background/Materials/Layer_03.mat
+  importAddress: Guid(a52503b3334a20d48a284de7ea6bedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Platformer - Forest Asset Pack/Background/Materials/Layer_03.mat using Guid(a52503b3334a20d48a284de7ea6bedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '379fad0633d09792fce68c99f806c685') in 0.5274278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a79ab503fbc394a69d93267378fed84 DependenciesID=780975351024d479c36c36bc6b24fa56 StaticDependenciesID=0cd7bf31c348e827d279d1a0549fd77e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1518.328754 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_18.prefab
+  importAddress: Guid(4c982269016456b4bad3db44c7da536e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_18.prefab using Guid(4c982269016456b4bad3db44c7da536e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6627b01b43cd5c2f6cbc78dd839d371b') in 0.1787389 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f9fc7b30425b8c9b54d6a789506fbff DependenciesID=d3fd231cf8e302d04ce5032c4be8ee81 StaticDependenciesID=ad790cc87a2ea13eae3ae5536a16a240 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_2.prefab
+  importAddress: Guid(d10cbe6b249ddc34db2eae14d2ae9f3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_2.prefab using Guid(d10cbe6b249ddc34db2eae14d2ae9f3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c09077a471a0cd36391f1dc8ef4da509') in 0.0288596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb52a1bc24130b4384f62dd40e7ced4f DependenciesID=fa9ffe3f809f940d5dbb922d8c355b97 StaticDependenciesID=893cab910c3bad50ee37481ae1f52d5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_3.prefab
+  importAddress: Guid(2e158dd1922dd2f429687179bedb7503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_3.prefab using Guid(2e158dd1922dd2f429687179bedb7503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c6785d7048e2e65e898fb20c20badf8') in 0.0208242 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=000640fc62cbaae5d991f466f61b80d7 DependenciesID=91e4ced5219d666c0e2c63ff7f7b3df0 StaticDependenciesID=8514ec3e500c81c5f587e835dc02ad57 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_155.asset
+  importAddress: Guid(fa17457a5ccc7d746bdad9e715199991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_155.asset using Guid(fa17457a5ccc7d746bdad9e715199991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e4b67b98596f6876a497a477dca278d') in 0.0414233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cabc0914c248ba4e0c38715f072a96c8 DependenciesID=74602bda93bbc0fd42656c1366496a38 StaticDependenciesID=6c694ded11431c0cac49070e00c0dcfa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_112.asset
+  importAddress: Guid(982914e9bf0c83f4581e24181e2b4ace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_112.asset using Guid(982914e9bf0c83f4581e24181e2b4ace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1efe144c6cbfb1a73aee180c0fbea20c') in 0.0193588 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4654a5f1f31a014dbfd8878faf6dc5e5 DependenciesID=ce91d1b2b293cf6b1dd9f075acd56bd3 StaticDependenciesID=c95b54c0877704cbd69144841bef835c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_15.asset
+  importAddress: Guid(e21a8a830346f7c47937317e47317e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_15.asset using Guid(e21a8a830346f7c47937317e47317e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5abf51938358751a037dd3700f434ce') in 0.018738 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=038d1ef36b6a110be078f778b1e65ebb DependenciesID=ecb28e59971604ec26dfe0ebb7d807b2 StaticDependenciesID=a2694c9109b970bd04ca7b99c9b373bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_141.asset
+  importAddress: Guid(7132df73d3b7c064a99bfd90180b547c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_141.asset using Guid(7132df73d3b7c064a99bfd90180b547c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aef4138d9849ae004e3f0c8722e39a4c') in 0.0240026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ba2eea412d4fc2b10135a0f0f5aa5d0 DependenciesID=7bbaec96f259a20dec36e33cf622f291 StaticDependenciesID=7220923bb13442dcb8eb8fae8863626a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_11.asset
+  importAddress: Guid(bd0adafd2601bb74dacbd30d5efcd1d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_11.asset using Guid(bd0adafd2601bb74dacbd30d5efcd1d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da4e67479cf5be5e8f0b1f29456b5225') in 0.021025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b5515d538d377c277a9f4b55ef94cb6 DependenciesID=ecfbff5232d0504842357c64950093ec StaticDependenciesID=ceec84338b20903abd8c9f3e85408d7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_0.prefab
+  importAddress: Guid(72fbaef77546dd1498e07955db8bc4b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_0.prefab using Guid(72fbaef77546dd1498e07955db8bc4b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cec61c278474dcbe5982c50cce74eeeb') in 0.0246816 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fef563761d3656a77656b028b919ca30 DependenciesID=a2f7f65a78b1fa4ffa11bc229ea1876e StaticDependenciesID=84d721b10c99785d05fc7d9f76b67610 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_134.asset
+  importAddress: Guid(0681986743c7dac43a02a65ef0b48e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_134.asset using Guid(0681986743c7dac43a02a65ef0b48e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9edf3b293541fc449d603804b8ca129') in 0.0164494 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e41e453da42bcce292afb59464c4fa7 DependenciesID=368d435ee3241de217a936a3bdffc1be StaticDependenciesID=a69a85bf2a91ffed7e812aac511713e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png
-  importAddress: Guid(ffb746d3193730a45817c315e46e1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png using Guid(ffb746d3193730a45817c315e46e1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f38c58ff445117f4fc1bb4663631c523') in 0.0213869 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f8e1c7f83b3d4c9f0f6562b32d5a56 DependenciesID=8c268e6c94efb5de9604665e4764c59c StaticDependenciesID=d2d880fef85ecfbfbc55780e77423b73 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.18 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.03 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.895 seconds
-Domain Reload Profiling: 3107ms
-	BeginReloadAssembly (295ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (763ms)
-		LoadAssemblies (489ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (10ms)
-			BuildScriptInfoCaches (345ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1896ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (865ms)
-			ProcessInitializeOnLoadMethodAttributes (530ms)
-			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.58 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (21.9 MB). Loaded Objects now: 11963.
-Memory consumption went from 240.2 MB to 218.3 MB.
-Total: 29.612300 ms (FindLiveObjects: 1.190600 ms CreateObjectMapping: 1.825400 ms MarkObjects: 17.230200 ms  DeleteObjects: 9.363700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 416.024328 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Demo/Demo scene.unity
-  importAddress: Guid(385d77417811a2a4a94aa431d5182b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Demo/Demo scene.unity using Guid(385d77417811a2a4a94aa431d5182b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '65e527d7d8c04fa5dac4d6913d5f4d11') in 0.0035834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1235efd392e48891801b5e9c6e293e00 DependenciesID=5c21d59f2f04c8d1c4bec13744a57a99 StaticDependenciesID=797293b6a0f4f7acce50b2747e53cab9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.52 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 6.17 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.003 seconds
-Domain Reload Profiling: 3231ms
-	BeginReloadAssembly (276ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (807ms)
-		LoadAssemblies (513ms)
-		AnalyzeDomain (383ms)
-			TypeCache.Refresh (12ms)
-			BuildScriptInfoCaches (358ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2003ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (269ms)
-			ProcessInitializeOnLoadAttributes (926ms)
-			ProcessInitializeOnLoadMethodAttributes (533ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.89 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (21.2 MB). Loaded Objects now: 11966.
-Memory consumption went from 240.2 MB to 219.0 MB.
-Total: 26.745800 ms (FindLiveObjects: 1.069800 ms CreateObjectMapping: 1.233800 ms MarkObjects: 17.359100 ms  DeleteObjects: 7.080900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.428175 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Props/props.png
-  importAddress: Guid(6e65a3557749f0943860a3c4639dcb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Props/props.png using Guid(6e65a3557749f0943860a3c4639dcb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8158df7847b6a9bf1dcd201fc87cad35') in 0.1131348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0d8f3c8a0e26fdce0db52d90c0e2e3a DependenciesID=71338b339e600a83868cdf6d717eaa15 StaticDependenciesID=34a99b4e1d582d491da941f2a53c8b90 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.930697 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/grass.prefab
-  importAddress: Guid(09b9391e7a628a548963c17f2caed9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/grass.prefab using Guid(09b9391e7a628a548963c17f2caed9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '569bb618bbccb61bc57c6361eb478d9c') in 0.5031679 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe0a8d4af67ff66d15b933415995b077 DependenciesID=3e9308cbdeccef7602c8190a5ec799f2 StaticDependenciesID=49f7f35746b64b8a20516551e2b74efa 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_5.asset
-  importAddress: Guid(e6f23b2ade6b4d942a09f438aeb0ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_5.asset using Guid(e6f23b2ade6b4d942a09f438aeb0ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '86a43a7ac6bdd6214348b6a25bc16231') in 0.0210682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f23385f152c4c3fc6a227ee6e47caf0 DependenciesID=1a3246749230dbc22d9e24e1b76e5d06 StaticDependenciesID=d78e1b2752c1d64fee8449005bc878a6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_2.asset
-  importAddress: Guid(1e787df5242aaa14c98730927cd894e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_2.asset using Guid(1e787df5242aaa14c98730927cd894e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6827a2b7fc5529817847ccf15b9109dc') in 0.0165055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e1e856e7a20059ca0420d7f927f27b3 DependenciesID=0cbcc22df0d0acef10a0810fc32444d4 StaticDependenciesID=74787262a8e114884ffd9d8d997a3f6d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_13.asset
-  importAddress: Guid(760a41e7ebc9f814080b1b8669283217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_13.asset using Guid(760a41e7ebc9f814080b1b8669283217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '986e07582c57f532b5cdd49edb453043') in 0.0168329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=415bce8ed2d93a35a1658e40b7dd3b2f DependenciesID=3bd895301d99a6ade61da88089527299 StaticDependenciesID=4f3d9cdb9a15d1e00909c3dcee51bc22 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_15.asset
-  importAddress: Guid(eb86c5d294350e241b076975fae48a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_15.asset using Guid(eb86c5d294350e241b076975fae48a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f888e53bac7071975fa2158ccfe558e') in 0.0188899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae70f29f02b9ca2af6f501e81a5af183 DependenciesID=59ccaae09d3f66d1b2540bf069bb9009 StaticDependenciesID=a86e0c1eed2c3d1f4b959886d0be72ec 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_19.asset
-  importAddress: Guid(7d461925f4582b74080d033f19549199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_19.asset using Guid(7d461925f4582b74080d033f19549199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '34452ee70379bf03292d29e30b82b962') in 0.0149817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=358729cb5290e43ff4e5f1a9c19c70d5 DependenciesID=3d448cc53af564adc5f267ec23e94e40 StaticDependenciesID=d19f70359c4a039e75d58c47f1a1b443 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_7.asset
-  importAddress: Guid(0882d0fc6ce9771458e17868cb0d3fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_7.asset using Guid(0882d0fc6ce9771458e17868cb0d3fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7a0daee83eee78c3786a7219bae8c6d1') in 0.0164496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=217d98ae0933ca39382d812c8997b9dd DependenciesID=c6a85bdf9c35a6507348744f74fffb35 StaticDependenciesID=92c4fadde2436ff6b24e4d59b5d88e0f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_26.asset
-  importAddress: Guid(9dd371e520eb8af4ba910e5447d2001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_26.asset using Guid(9dd371e520eb8af4ba910e5447d2001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2d240f619e4d41db19236a3445085650') in 0.0186693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=297f02b359eae03ae13a320b0782ad01 DependenciesID=768c0bedf5efb82c634cfbaf1a2a5fb2 StaticDependenciesID=4ffb35cb129bb8038a6a81758ce94dfd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_25.asset
-  importAddress: Guid(1a33991e46041bb419f1eb138f657050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_25.asset using Guid(1a33991e46041bb419f1eb138f657050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '71bb460731a79d0bfec1ad963b49aab1') in 0.0182817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83606353268d5da422b0229927face00 DependenciesID=b3c5f0f8e309aad1b2974122fa0c4934 StaticDependenciesID=72e1979c300538d2e36e93a02815461d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_16.asset
-  importAddress: Guid(9999e55343135324a99aa7c0efcfb968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_16.asset using Guid(9999e55343135324a99aa7c0efcfb968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b917efc6aee737dfb1902b4a7a2d183b') in 0.0168507 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3275928512b67173e26e28efb71e0802 DependenciesID=2b8314fecbe6783799e301457a7eec06 StaticDependenciesID=10c134a8238146421871e52bb7919d6e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_4.asset
-  importAddress: Guid(03e790a2a5c6f6f49bfdeef04b5fbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_4.asset using Guid(03e790a2a5c6f6f49bfdeef04b5fbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cfb398d49f6773fa28916926c64e219a') in 0.0204073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a5372c6836da5e6e2fa26468b9fca03 DependenciesID=fe04394a3ce40db439d4b489c0dfe171 StaticDependenciesID=dee98728f47b30ea1d8cc0ede53f95dd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.898510 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_28.asset
-  importAddress: Guid(e8efa0cd92dbd144989bdbb7497b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_28.asset using Guid(e8efa0cd92dbd144989bdbb7497b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '351a7a7b13a36058b92209a990647296') in 0.0166548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1587ba7c812471355f022c724d420e57 DependenciesID=f70770de101bbd8bbea79c273bb5fc90 StaticDependenciesID=52519dc963cdae9b6c971fda1b008a75 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_31.asset
-  importAddress: Guid(d83caa78dd4ee6440b9c4f25fcb01e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_31.asset using Guid(d83caa78dd4ee6440b9c4f25fcb01e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e923792ff693eaf4bb20361e147204be') in 0.0228731 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6536b29349da6e32ef5969a162e9708 DependenciesID=39efcc5f612954d1df6b5f0d9cbe1c14 StaticDependenciesID=817992f97c5e9f927cdca599ee333ddb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_36.asset
-  importAddress: Guid(6e9388e52f0918e44b630a0af445a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_36.asset using Guid(6e9388e52f0918e44b630a0af445a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c845eaf4e2afe89435778a504d8dfa8f') in 0.019312 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=359859b2ebe9bf9d6197176e7f10a96f DependenciesID=a0c724283a7afd26e156e4ca9cbe36c5 StaticDependenciesID=85fabd0a167aa053fe289f154c9bb3fb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_39.asset
-  importAddress: Guid(2aae50b4eab64244d88fc856af549af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_39.asset using Guid(2aae50b4eab64244d88fc856af549af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '055a59706e38e39adb84a14234d5de68') in 0.0211463 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aaf6a2ac11aaba8f097ab16d92b10b0 DependenciesID=a00f8043b0f48583607f60a15f54fd96 StaticDependenciesID=65b939a3d382692e4d94066ede5c2e1a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_48.asset
+  importAddress: Guid(7f36776e1b185bd479fe5d20e2e23995) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_48.asset using Guid(7f36776e1b185bd479fe5d20e2e23995) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b354808a41f1f14f1acb2b8cd753fbbe') in 0.0178725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e335ecff3e59f75035152972e2d49144 DependenciesID=d49958be3cfcece00a235079649c0709 StaticDependenciesID=b1da4cbf0934bbe757f71d5c92655cbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_35.asset
-  importAddress: Guid(ed1c9c0945e4abd42b500dec5f8da098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_35.asset using Guid(ed1c9c0945e4abd42b500dec5f8da098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d13f8e65df3bb8076d88cbcee557698') in 0.016075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6488799ac346ec4152b36b4c57ae8fa DependenciesID=de42202ef7408b3009df1bab1c773f00 StaticDependenciesID=603a5ec0159ca82f28d6bf50600fbffd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_98.asset
+  importAddress: Guid(bb584ce50cd305949b9bc0c108467129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_98.asset using Guid(bb584ce50cd305949b9bc0c108467129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2138bd4733ab245fbf18bbbaf94784a') in 0.0154934 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63779eb0926afc91ee197e5735f95cfd DependenciesID=94b57280b9bfc01516ef44d15aba29be StaticDependenciesID=0500b6f761d36a8443dc6498f8d2db5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_30.asset
-  importAddress: Guid(0e8c505f98df55d4a9d31d31efd4f56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_30.asset using Guid(0e8c505f98df55d4a9d31d31efd4f56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '751163b2fd60858fa192d681a0a4899f') in 0.0196684 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c35271b8e42cfe43e30120647448a697 DependenciesID=28635e49cebdf08211530628078c7ceb StaticDependenciesID=3baae256859b5464a707b6cf6827ed8f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_33.asset
+  importAddress: Guid(4d39f938b384d774589f5eec56572f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_33.asset using Guid(4d39f938b384d774589f5eec56572f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1aef3764c963de61af3e07f659950d30') in 0.0213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9476d168bdce2a5438e4118674c2378 DependenciesID=20ac65169bb86257a2fbb80ef308957b StaticDependenciesID=6d92c63cb44c65260c94f27aaefcf70c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_16.prefab
+  importAddress: Guid(ad8aee53221f9c44bb741edfa9bbafe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_16.prefab using Guid(ad8aee53221f9c44bb741edfa9bbafe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53b4077c101bd9890857a4134ea371c8') in 0.0245069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0466a8dcd688c98480ba06bbcb751be DependenciesID=54c037987fd4879541376cf7d7e76775 StaticDependenciesID=4c994a2828e3f92026efe619daf7b866 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_161.asset
+  importAddress: Guid(20dfcd4cf0355c54aaebdad9d23bb589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_161.asset using Guid(20dfcd4cf0355c54aaebdad9d23bb589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34bdcaccd3cf4a533dbe62706810c716') in 0.021553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ba12ef5edeffdf84d55207a378b03c2 DependenciesID=abfa1be97d3a48021d8b5f64527858ed StaticDependenciesID=2eeecafc09442cf5d66b4ef2c7bbb493 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_147.asset
+  importAddress: Guid(2f64576086942ad4b8a4b22acb0fe2c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_147.asset using Guid(2f64576086942ad4b8a4b22acb0fe2c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4532e12e6d0e68be9d7209a369b7d10') in 0.0256275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0734b952fe3502f89bb0dcd7088f4a67 DependenciesID=4ddf912209d4bb790a79ef377b53b780 StaticDependenciesID=19156aee5cfb38d457a924c362292be0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs
+  importAddress: Guid(25b462d4c7ecad445843e353e2d90427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs using Guid(25b462d4c7ecad445843e353e2d90427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81e1b4a5f9b69c11513994b504d05ec3') in 0.0179916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ff2199e802b1910d5310b9194c78920 DependenciesID=1ba8e39d5106d0e1003c82e110e7c782 StaticDependenciesID=0044b233f17281013c5929edb596d8b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_37.asset
+  importAddress: Guid(2692f4efbd3809341a0d5eeb348d9bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_37.asset using Guid(2692f4efbd3809341a0d5eeb348d9bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33165ebc14e53586bb47c1462c5af318') in 0.0229165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fe48e55e37974fe54f9ccf89c81245e DependenciesID=4c4835be60da6b2e4edf2f16299d557d StaticDependenciesID=d670477f0ed1550fdf079d1f6fcc02f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_179.asset
+  importAddress: Guid(dbb1ea24c2001c6418e572bdb9fe54b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_179.asset using Guid(dbb1ea24c2001c6418e572bdb9fe54b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '848b44422fce1e31639b6174fdcbd82c') in 0.0280319 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5afbeff2eb0205116aedc6e893525df DependenciesID=18533d919bb19d8a3c38d5366535e1b8 StaticDependenciesID=3d38a8f09b86c58c15da822fc310919a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_46.asset
+  importAddress: Guid(2268a5d94b519824fbdf5db5d3eb0cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_46.asset using Guid(2268a5d94b519824fbdf5db5d3eb0cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c706ff335c02501c759618c93230fb0') in 0.0167414 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc3f10d81917e49e1cdbd07136696ea3 DependenciesID=47e69be6d4153477b0b1f18b1a24758e StaticDependenciesID=83fc6529d3c27d08b8161820ce541a84 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_103.asset
+  importAddress: Guid(d358db5499a17b54da0b7541e73aad5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_103.asset using Guid(d358db5499a17b54da0b7541e73aad5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '54cc72a45c0295ad1b342cf4baee9fb9') in 0.0204685 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=097d7cec6f7facf44dc5fbe267e86f67 DependenciesID=123a8d274a78f9df7fc5a36e3b752441 StaticDependenciesID=2652b270dd8e153859acc10fd6425644 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_131.asset
+  importAddress: Guid(13aa7ade8e3b9bf4ea6cd47eee0db525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_131.asset using Guid(13aa7ade8e3b9bf4ea6cd47eee0db525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e7815bfe24681147b0e5aa5cce994921') in 0.0204109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbc3d5a5563b41956dc3d5f0358aa29d DependenciesID=0f53bee8dc4f4ec1b23ef5a78a0adca9 StaticDependenciesID=99e88fcbac99088a01018614dc392215 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_145.asset
+  importAddress: Guid(6d19c62ba6111ea459729fcaff8e4e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_145.asset using Guid(6d19c62ba6111ea459729fcaff8e4e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b990b02ea5ba9b52f9349f0b303170e6') in 0.0231923 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=962e90c94bb7df69ff597226d1ab21ec DependenciesID=3ee6acae189a20c013b314883490224e StaticDependenciesID=abf868fd2bf2804379586b3e582986fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_148.asset
+  importAddress: Guid(bb0127e67c3d70b4687690b8981470b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_148.asset using Guid(bb0127e67c3d70b4687690b8981470b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c16ae72af094f215cbacd8facd88e569') in 0.0154729 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87bfccab255b1720fe44fd5ca195cc57 DependenciesID=8c7d0f16a99a40d1aa903525416e6ef1 StaticDependenciesID=4c827edbd335cb09b13ac9b2dcce1832 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_63.asset
+  importAddress: Guid(9a8aaef3a28be2649baf921162d62da1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_63.asset using Guid(9a8aaef3a28be2649baf921162d62da1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c4031c474be203f90883832c272790bc') in 0.0186178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=801ebbb2f7071beac32dc2dc8daf6ea6 DependenciesID=fe3ee147582d82ca09a032c49a62cc5f StaticDependenciesID=6787fa813aa2483bafd134398e5c5a39 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_140.asset
+  importAddress: Guid(0fddfa2d4f697ab47a0d9828b6a04ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_140.asset using Guid(0fddfa2d4f697ab47a0d9828b6a04ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '016151c516fc983d6c6f7949c7863a9d') in 0.0221037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f46ae2531f1efbe4d3bf1d4f9fa2757 DependenciesID=1ea319b3fd851ed835b302098c232374 StaticDependenciesID=ab2ceb8abbb13d6aa4c6a9ae1ee528a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_129.asset
+  importAddress: Guid(ff07edf7de3fcf947a488f41bf17fbc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_129.asset using Guid(ff07edf7de3fcf947a488f41bf17fbc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '076c8de43f22a8aca26f9c693e17c3a6') in 0.0142783 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abcc8544ad10d6e430c66dff519d5150 DependenciesID=a3deedc17de951233badd15f09ea9ead StaticDependenciesID=252d72aa70a57fdb42e10374c4300fef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_1.prefab
+  importAddress: Guid(5808ca7cfa9bad240b1c2c52003f4817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_1.prefab using Guid(5808ca7cfa9bad240b1c2c52003f4817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e40c415cada6fb9bcf88fdab6ca2b6a6') in 0.0183626 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9fc292a6f3f4793a54e435333b5ce95 DependenciesID=440cfa6a249b264f2197904eb3a032bd StaticDependenciesID=96aea5ba2d119e01f569e1b3f7213be5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_171.asset
+  importAddress: Guid(c9234576a8dbe3e40837e14fa696b93c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_171.asset using Guid(c9234576a8dbe3e40837e14fa696b93c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '00c420e7e290a727dc7f72b2067626a7') in 0.0265273 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbcca1dfc1fdb715bcb6f7fb2a4f0620 DependenciesID=a5d023ec979883a86de15de255daa1f6 StaticDependenciesID=a0039a0b5813f66c76d218f0c754adff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_160.asset
+  importAddress: Guid(50802983cb803bf44aef3f8b4d1bd335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_160.asset using Guid(50802983cb803bf44aef3f8b4d1bd335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0c7fbb332edaa782ec95483ad4f5659') in 0.0191772 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eaf78f7dc587755b1718f3f04d6c4fcb DependenciesID=144d3a11782a261616249789a7935d2d StaticDependenciesID=5061c93b937acbaaa85c3b34dc7ee561 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_60.asset
+  importAddress: Guid(aa3f6a82a6124f74ab6a46e72846b500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_60.asset using Guid(aa3f6a82a6124f74ab6a46e72846b500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9062a02f75bfbae6bc6b81abb20e33cb') in 0.0171406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0746971ffe1acd41e025d6d716e6067 DependenciesID=af7c473e903c3b96c66efe172edd9142 StaticDependenciesID=4609facf28c8d47d1cb898c95363edf5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_10.asset
+  importAddress: Guid(6f8ffdf4dd9eff74d826989fdc289ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_10.asset using Guid(6f8ffdf4dd9eff74d826989fdc289ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db5cc7e24be57ba67ddc431b5ad77e59') in 0.0160128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11706f5d0cd1c2622f2587b68d2e4d0a DependenciesID=59008d49b0058982694246c1c756a74f StaticDependenciesID=46c03617f4ce59ffb4557a2efa12ab33 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_6.asset
+  importAddress: Guid(c6036000667b5934d818717a2318de69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_6.asset using Guid(c6036000667b5934d818717a2318de69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6734b56e05289de86b6e8bb694a804b') in 0.0140424 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13b7ed12567720b86626f618e8433c31 DependenciesID=7f948d382368800a71b95f0116e925b6 StaticDependenciesID=0a4c8048fb08793ec63750caf2830dc0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_8.prefab
+  importAddress: Guid(bff18508c0a59f948ac193210aa13f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_8.prefab using Guid(bff18508c0a59f948ac193210aa13f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28b4e815c90b969cd767901a5db9338b') in 0.0191339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfa6ff49122130f82b22eb4fd87a8ddb DependenciesID=67100a7611fec9d35fec3c100b3d57e4 StaticDependenciesID=f8621a39f10850908940a2eb8a76e0ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_55.asset
+  importAddress: Guid(c9bc746670b28ec418142d49023fbecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_55.asset using Guid(c9bc746670b28ec418142d49023fbecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5c074ea269e299d063bd5a3cb8970226') in 0.0152903 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=570c4f78db9d8e1398c59b2abcaff9df DependenciesID=2c22c0fc227d8a20b96d5dc54f97a71d StaticDependenciesID=98a6ddf2a7feab7f2f5ac3681c34829d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_53.asset
+  importAddress: Guid(f329e299f14bcfb49a756b3f099187e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_53.asset using Guid(f329e299f14bcfb49a756b3f099187e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71e0d18c9a2b3b95d0f20f55d330ad93') in 0.0218467 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc8dd78237aba8d6da0908e733595ec9 DependenciesID=7078d3132ad778c3fdcde2b6561afe03 StaticDependenciesID=078aef6646316e65a7fe490922785acf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_47.asset
+  importAddress: Guid(d6dcffd7ba5598f498736d5eef96c311) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_47.asset using Guid(d6dcffd7ba5598f498736d5eef96c311) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e8a316e1f6f8265ab06f24d922867570') in 0.0163496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdb1f77285c6a748c5b33b19f92d9c86 DependenciesID=1d104bd730deee9e21ff305e19aba338 StaticDependenciesID=61bb61f08ae902088b676e8a2d09779e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_81.asset
+  importAddress: Guid(5004cd090d4492a4dbbd99435955192a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_81.asset using Guid(5004cd090d4492a4dbbd99435955192a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a642c3da3b4477a383b25c23cd4ba900') in 0.0183997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9dee291e9c618111e7ecfc70253f8555 DependenciesID=16fb6c22b5f176a7e278cae595aa96a8 StaticDependenciesID=eaf1d676d053ced4584d40c8216577ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_178.asset
+  importAddress: Guid(e29377722f5697d428bf889149b18c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_178.asset using Guid(e29377722f5697d428bf889149b18c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '97fdd4030e5ea134268c81694271d4ce') in 0.0164437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a5b33a9f416ebd8079500a2199962d0 DependenciesID=c62b38838c8c79a7e714717b52db4a15 StaticDependenciesID=61dcb52d2a936eeafe3e11a0d1bd9a58 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_88.asset
+  importAddress: Guid(aa3bb409f5a3f6d4e8d9016162f47ea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_88.asset using Guid(aa3bb409f5a3f6d4e8d9016162f47ea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '968be2b8757ff081e793deca0caabb6d') in 0.017571 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=722d0341e83d50500fd6cf004ab1de5b DependenciesID=3cded64fc0110514b6f94e28db2de8af StaticDependenciesID=4c3a019c8354280ac5ae4f4f6afabea0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_16.asset
+  importAddress: Guid(c7e104a15f92b094ca3f320a387f4bf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_16.asset using Guid(c7e104a15f92b094ca3f320a387f4bf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '409bfc41612dbea75635b4a89df3ef7f') in 0.0166082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed29943d3638d95e740745c0b38a0e1c DependenciesID=49718638da124c79ba61567b07b8ffcf StaticDependenciesID=db834449b68382136a768327a1472e7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_6.prefab
+  importAddress: Guid(df0d65b074ba11d458504137470c01e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_6.prefab using Guid(df0d65b074ba11d458504137470c01e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2544490c2100b4297b52459e244938d') in 0.0187862 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9acdaa6bd67961215ad8b68f1a03456d DependenciesID=c61036ac6e13fd6e3c6486e729428b7f StaticDependenciesID=e292b7da6cff6845dc8e200cfd35fe29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_150.asset
+  importAddress: Guid(568c06a7131de484382a5107b5c66953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_150.asset using Guid(568c06a7131de484382a5107b5c66953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28a25891f8c57a30b302bfae1ce03e16') in 0.0212345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=403f85eadad9b22f0dcface26597ea34 DependenciesID=cc74a55f9fe57e4e663c74608ff2aa66 StaticDependenciesID=afa9824116cebe335b09be14a8b04f0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_18.asset
+  importAddress: Guid(10647dd5dcafe1f4bbdf174163405cc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_18.asset using Guid(10647dd5dcafe1f4bbdf174163405cc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e52add5d2879985ea4b934645a3f98ce') in 0.0195206 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f08e1f0b8257847b11fc7c00c003c15 DependenciesID=0258fbc3213c668f7ec40de9f3f3adcb StaticDependenciesID=ac67982ee7795c6148ead118b886c2c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_83.asset
+  importAddress: Guid(c61609dcfd495194698028eadeaef068) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_83.asset using Guid(c61609dcfd495194698028eadeaef068) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '020bd3d411c34586addc0ad5b1533010') in 0.0161077 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56eacf96e644221b728a8922c3ee6832 DependenciesID=57cc7ac83a03be17c94a1054d857bf37 StaticDependenciesID=bbcdaae159cee82bdefc04d508b029a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_136.asset
+  importAddress: Guid(5cb89e68aa312fd47bc29afdd0558369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_136.asset using Guid(5cb89e68aa312fd47bc29afdd0558369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e443a6aca28f5840a87ae4a986bd4be') in 0.0167129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=099cc6f731490d311ff37b009ea2ac35 DependenciesID=5c0f2e5a25b2dcb66e5521b8778ddca4 StaticDependenciesID=0fcd9feff4db27dc1d8e677080fe8aae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_165.asset
+  importAddress: Guid(abda9aa6300cb6f41b158d099eca5d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_165.asset using Guid(abda9aa6300cb6f41b158d099eca5d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ac1840f19693d080268ba477e84accd') in 0.0187819 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7b187a4088996bae57f9ee46585eea3 DependenciesID=2d3b5a8c4a29341aad3e9429a533680d StaticDependenciesID=6e0580b65d682057a2257924907dc1c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_64.asset
+  importAddress: Guid(44deb446fe8ddff42899a201ef75789a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_64.asset using Guid(44deb446fe8ddff42899a201ef75789a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1afd91c23d99231a791069b9db4fd24b') in 0.022258 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6007e46bd8ef9331172f38ca35da451d DependenciesID=2ff25afb3afbddefcee03828caa3eb01 StaticDependenciesID=2608a54c54d1270e3d6ba6e605f27319 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_5.prefab
+  importAddress: Guid(38d22e1553bfb7943b9544b849dee0dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_5.prefab using Guid(38d22e1553bfb7943b9544b849dee0dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1653f1bf25e1a22ed55ce094df962ef8') in 0.0196357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02395a98669e89d94a92fb96ce039e64 DependenciesID=11e8fb5ac6652937c21e43b1b0184361 StaticDependenciesID=7454f3a3c7d83619a15f5a46ff972da1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_154.asset
+  importAddress: Guid(459c2e03bb14cdf4dae2362f1262683f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_154.asset using Guid(459c2e03bb14cdf4dae2362f1262683f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eac36f9a8282f3b16d03cd76ca7f7069') in 0.0163853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a56e9ac803d34d7d669d7847ac7812c DependenciesID=756113ca458107f7baeb29b7a7c616a4 StaticDependenciesID=cdc78a19be84c9c1a9bc18e4483d6bfd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_22.prefab
+  importAddress: Guid(e2a26257b5e648040b6edae4f19a74b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_22.prefab using Guid(e2a26257b5e648040b6edae4f19a74b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b85022b1236ce5dbd417027bbc8e6dd') in 0.0218207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e5bfa4472e1d0a3c383de4d821e26c8 DependenciesID=032c594a0e1b458a9e93cada4de6403f StaticDependenciesID=1e6ed1b8571a68895d4724011d1acaf9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_109.asset
+  importAddress: Guid(e41f087459d92864cb81c0b53c3bd8b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_109.asset using Guid(e41f087459d92864cb81c0b53c3bd8b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5081bb9b96b34e1c14e6a6cf375975f') in 0.0166018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5929336733202c4033340b0ef0ef4e1d DependenciesID=330d4d83b760da50c9b5c0b4b3bd064d StaticDependenciesID=01e57efa4ac0ea060cdad912da2669e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Scenes/demo_scene_FREE.unity
+  importAddress: Guid(f2120731c167b44499fb4a0263fa8368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Scenes/demo_scene_FREE.unity using Guid(f2120731c167b44499fb4a0263fa8368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '043a440fe2f660fa4cb23755a99ed556') in 0.0235297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c5f32a3a38fe32aef7d89905de5485b DependenciesID=9614a657755c2c1e264cda35e0e8ac61 StaticDependenciesID=0f7f9f34200bf9d90546875fad165e7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_38.asset
+  importAddress: Guid(2a304df656aa83c4893d32ae8275fe52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_38.asset using Guid(2a304df656aa83c4893d32ae8275fe52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e480329f8d1a7da8eb5d6f2e210e2c4') in 0.0162828 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9dcc7cf29852667ce96f544ead45006 DependenciesID=23a3e589b9101edbf9fcc444c34ebe45 StaticDependenciesID=41a22768eab287992e5d74a697593a75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_52.asset
+  importAddress: Guid(c9ed40586f9a4c14b91c068d3541384c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_52.asset using Guid(c9ed40586f9a4c14b91c068d3541384c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2a9856eca1651e70f5ebde2ffdd8f16') in 0.0160627 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71ae37971543840751897ef2dd34ff8c DependenciesID=5f79da955936a781a4cef9f144618a29 StaticDependenciesID=0aa5a065c111b53485085289b24817fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_80.asset
+  importAddress: Guid(c20cd87475a4d694886b0e12e6045ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_80.asset using Guid(c20cd87475a4d694886b0e12e6045ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba3264690164aee2860dcb8c1f505fb2') in 0.0165108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71aace14d4d145583ab62e171842055b DependenciesID=035de9ddd88326f56364aeaae570853d StaticDependenciesID=7a95f08ab53d32c58911f472901f3e14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_159.asset
+  importAddress: Guid(f9caf0d40f289fc418ea78791d2a7794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_159.asset using Guid(f9caf0d40f289fc418ea78791d2a7794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0321f89915c07d71e260d47a3bf2b90b') in 0.0188263 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40a0ee52a3dac4cf67e79d550c646920 DependenciesID=2a5747734b2ef017cb61fb48f0d2f4d1 StaticDependenciesID=bd3e558d443fe376abdf1533599a5fbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_157.asset
+  importAddress: Guid(5afcfd647aaa0b04f8b184668eac4994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_157.asset using Guid(5afcfd647aaa0b04f8b184668eac4994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '343b3e09439af5938983448841af4cc3') in 0.0164405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=155f80f06a1c75e3b6a861653bbed9de DependenciesID=f232edfd750501f3214cf86fdb37072e StaticDependenciesID=3c7af7c3daa63a5c2fd929c0efe72c36 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_23.asset
+  importAddress: Guid(706d8307a11b2f24cbc2b2d304cc16f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_23.asset using Guid(706d8307a11b2f24cbc2b2d304cc16f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '144c6f5208395a9e91c68dc40d456699') in 0.0174088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ab97217ee35156fbb28cb0ef6eb39c8 DependenciesID=bf7b6bb673dc375f57f67e92aa543635 StaticDependenciesID=53a6200a60b24f2426f4672721c42826 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_31.asset
+  importAddress: Guid(384bd6f8a294d504db2f6dcd946cfc84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_31.asset using Guid(384bd6f8a294d504db2f6dcd946cfc84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '22fedda59411e6212771ce8fa38d4515') in 0.0224229 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ec02ec171d3f645a910a4d71cb1333c DependenciesID=6ea62da470b80587b326dd4faac9b1df StaticDependenciesID=351656d3d2105c288c59b5f8948ea858 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_7.prefab
+  importAddress: Guid(24ae35bee8c16ff4da4776e3e28e6d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_7.prefab using Guid(24ae35bee8c16ff4da4776e3e28e6d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b82a3a2ed66e94b64418ee0f5e93c650') in 0.0189325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f0f1e734accbba4fc28fc3a8f7c955c DependenciesID=ac68cb104fd831583144c6dfede27c7b StaticDependenciesID=94cdc533f3e8e30990d13be636e8ed6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_4.prefab
+  importAddress: Guid(5f00a24494233a242bb7397e971a1e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_4.prefab using Guid(5f00a24494233a242bb7397e971a1e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '434824c0561c7ec415a174480ef08481') in 0.0196604 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73e9df3106b80443a4a1bbaa81d42b75 DependenciesID=190f1f657b38e0dca977b4de70c85d61 StaticDependenciesID=d46427b83fcc01c533007f8a48f3fda8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_12.asset
+  importAddress: Guid(c5d5c0047362956438d3faa1d935620b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_12.asset using Guid(c5d5c0047362956438d3faa1d935620b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4947b363616cde0ae70da98db2d3c671') in 0.0161526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b11d2ee45e506a9bdacfb186b13d43e8 DependenciesID=ade85f3d5739f33bd5ca3641ec5ab866 StaticDependenciesID=2ffa2f0092d1549a5a0a94c4c9f8fd68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_99.asset
+  importAddress: Guid(c04fa706db18f354e973f5bf23f16f89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_99.asset using Guid(c04fa706db18f354e973f5bf23f16f89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1f993b1b85c523e0fbb3c8f9b2f7256') in 0.0203438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcbb6908dbd9f32f115d2ec93ad9237e DependenciesID=9f2b1876cb9ab482e7e4c51798d58417 StaticDependenciesID=af0e7d4f96f8350c9653bafec8bf7a4b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_9.prefab
+  importAddress: Guid(66e1fcc26d996ca47b0d294f2113a254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_9.prefab using Guid(66e1fcc26d996ca47b0d294f2113a254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9449b431ff3fb20ba2496b0cbc33cc9') in 0.0186405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=247cda0d4567aa113de5c0af82f42818 DependenciesID=f9fb277ce6e700e9136536bd591942e2 StaticDependenciesID=a74d72176a4d975380b9e62885a4987e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_86.asset
+  importAddress: Guid(9f8d2f8f63cd53f4f98df92d3d4fd57c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_86.asset using Guid(9f8d2f8f63cd53f4f98df92d3d4fd57c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '632e7345d6e89c6810788abd743f77b3') in 0.0188574 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=144a0eec71df73e7280182e7c910de4d DependenciesID=d06bdb4228996661cca3e2033c05c8dd StaticDependenciesID=0ab35d9599f89f28e6e29fceb60f7cce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_61.asset
+  importAddress: Guid(1f5de28909e9756469cb72e199333498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_61.asset using Guid(1f5de28909e9756469cb72e199333498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c7c1bf46a8a3e6d72ad5a0b4378ed3bd') in 0.0182961 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cad692914a8c5432abc9f0f3f5d5fd85 DependenciesID=8f8461e1114bfe63a2fa0e49d999d4b7 StaticDependenciesID=fc10949b9c5ec543cfba36f0553ae75f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_13.asset
+  importAddress: Guid(6ac5fee16c2e8da4d91c8ad5aab85514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_13.asset using Guid(6ac5fee16c2e8da4d91c8ad5aab85514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49692f70a34950b4946f2565da8314c8') in 0.0185002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c30ec3e29af6cc2cfca173fd77dd4e4 DependenciesID=d86d16ae9caee0a51429abc65d06fe3f StaticDependenciesID=0b75b73b8e8c793a015ad3e8c9ce9d2e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_85.asset
+  importAddress: Guid(727ee8fd8cdc7ea4ebbc3c59e527904d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_85.asset using Guid(727ee8fd8cdc7ea4ebbc3c59e527904d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6af917b642aa7e3c4269fb603d648bc') in 0.0170045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14507622fc029b887bbcbe2200fcfc14 DependenciesID=c3ce30fc15799c25caa4e419cca2cee1 StaticDependenciesID=63ef27666f2d92bc922b133df3e3a428 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_17.prefab
+  importAddress: Guid(00d91d3ed31c0374a879d29df69e584c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_17.prefab using Guid(00d91d3ed31c0374a879d29df69e584c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10cb57f41c6a59af8857b0c7eebe889c') in 0.0249739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3aaf903016e8c513888525f153724f7c DependenciesID=814f407e889498d0315e066b109cefb9 StaticDependenciesID=fb132b8c93bf0b25c4effe87eec807c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_49.asset
+  importAddress: Guid(a5e6056865d9eab4dac9498881c5fcf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_49.asset using Guid(a5e6056865d9eab4dac9498881c5fcf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '15fa5cb8828640ab5616ee8382806fa8') in 0.0152651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b38e31cad83962b40074dceeee8aa4b2 DependenciesID=0b9dee60f496787056ef25b5308d8b8a StaticDependenciesID=c8edc0823b1bacc38be9316a1e7d5a2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_25.asset
+  importAddress: Guid(45b87adb5b36d1a419ec58982723b566) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_25.asset using Guid(45b87adb5b36d1a419ec58982723b566) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6103bcfcd5201aa0dfae8a7002434a7') in 0.0158939 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a602c12ac977ddbcd5e172205b57a64 DependenciesID=ce3811c8d5c8cd857041f897b460c07a StaticDependenciesID=05a35f8f4888acf298d78d2bd45226bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_9.asset
+  importAddress: Guid(8cbb1fc886e2cf04083457e2b390e43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_9.asset using Guid(8cbb1fc886e2cf04083457e2b390e43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f98f21889965b93909fde652671ba36') in 0.0206965 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d721c20ccb76dca60b2b32f0be75617a DependenciesID=6314218e291fcdd4217200bddb4ea83b StaticDependenciesID=5376beb32583c716c2a425e1bbe87a80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_79.asset
+  importAddress: Guid(5ff0c1793623d4d40807e8945cb109a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_79.asset using Guid(5ff0c1793623d4d40807e8945cb109a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49940a8d0b4b250fd02324638af1c1cc') in 0.0199343 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92449d92268187c13a5640e8a3b15d73 DependenciesID=8ade7570a421f1f2424c06fd37495739 StaticDependenciesID=2de9c6fb5243ac55b2ca9c2c1ff7571f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_153.asset
+  importAddress: Guid(016dd1fa05139b84bb19f6093b8d47ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_153.asset using Guid(016dd1fa05139b84bb19f6093b8d47ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ad18acd0b809239087561f235d196f8') in 0.0177019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a32d8a9ef0eb5251bb84d9538b3d91e2 DependenciesID=5e84c674049a0720c9f3e313c7ae1cd5 StaticDependenciesID=b6565d07e4ca299aa8786c0dc77bcbf9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_152.asset
+  importAddress: Guid(5f1ec2df8efff4a42905f989f12d1a3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_152.asset using Guid(5f1ec2df8efff4a42905f989f12d1a3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '056413d28367761e41ea1ae57738a7c4') in 0.0179066 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f4e6cf72abf4fff6fb95b2c5bc23d5f DependenciesID=977655ab32fbac4c43774349ed477af8 StaticDependenciesID=0afc3257011d53acd9e2523d391cea93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_121.asset
+  importAddress: Guid(3bc8684c8bcf8ae4fa089767112fbd7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_121.asset using Guid(3bc8684c8bcf8ae4fa089767112fbd7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06ed25f63d79fd2efb2514d78496effc') in 0.017203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=249e4cc027d86590583815e007e2bbfe DependenciesID=5c97c072f0ad52d31115a9bd3437920f StaticDependenciesID=c25a5e248db9725ed7bff2deca661ec8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_97.asset
+  importAddress: Guid(78e61841b3a727140835283c3dbbec06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_97.asset using Guid(78e61841b3a727140835283c3dbbec06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9d968f1fd07858036ac29266346353f') in 0.018701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5714da8b3b236c95421a9c4bcf3c2699 DependenciesID=37d29a13a778b5a3a18cb01e418bd6ad StaticDependenciesID=bc66701f49fd40416c9186da9b3f3ca8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_74.asset
+  importAddress: Guid(3da4324532840ab47b24c4e7a77daf44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_74.asset using Guid(3da4324532840ab47b24c4e7a77daf44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05ab0c9d092209f79ce56ee674857466') in 0.0369858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=726d87ac5b05db5ed88e49601b93db2b DependenciesID=b1a4015e0c70c6c767734c3b8825aab5 StaticDependenciesID=625334d742c558a527ef35fc258954d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_92.asset
+  importAddress: Guid(e718d46dbbb67674fb5579fe6e979b64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_92.asset using Guid(e718d46dbbb67674fb5579fe6e979b64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c1064dbb602ba2834d6495b16c8c839') in 0.0209264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=652ed098e6447ff76b276ba9b625a349 DependenciesID=5ddd50cc51c95df69d6c33a9a43e6e03 StaticDependenciesID=84d61fe8a26ad0a942add5c169eb855d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_77.asset
+  importAddress: Guid(194f5115b933c3448b702305f004a2f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_77.asset using Guid(194f5115b933c3448b702305f004a2f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c562a9eea917110c9b99773a45292784') in 0.0202665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec0464123067acbf179289effa7a8906 DependenciesID=fe25aa588c3633408d2f729c840f3f5c StaticDependenciesID=f8d6f1836bb4336fc1db2ec1b1d574b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_174.asset
+  importAddress: Guid(c9eb2fa7107207b49a9e21ac9ddfb5d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_174.asset using Guid(c9eb2fa7107207b49a9e21ac9ddfb5d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fba354ee19cc01b8847e0d1d1993bfee') in 0.0168272 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4401fa82eb5abc2e715703d45277d667 DependenciesID=528271080cda6a05efb7c0afa4edabc6 StaticDependenciesID=714b27abeed56de968b8c16cbfde090f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_50.asset
+  importAddress: Guid(a4bb22a71934f524cb9bfbfdc56c7bc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_50.asset using Guid(a4bb22a71934f524cb9bfbfdc56c7bc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd32aa3508ae50fcc35fb0d34a7173893') in 0.0170722 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d85a3540a1a8b4169059798361340452 DependenciesID=64a3230684dbb783560639a7b8faba71 StaticDependenciesID=10899df19dec6fef9dcdfedfdbcfa30f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_29.asset
+  importAddress: Guid(0fae4d02d118d244c858d0ea12fb2d6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_29.asset using Guid(0fae4d02d118d244c858d0ea12fb2d6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '67aa3b85f245f83254df78a5cccec028') in 0.0175411 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b34ef0efbc214afc2fce910dcd435725 DependenciesID=eff906c105ed24aa0c91b012a5282cbd StaticDependenciesID=427bcc483ef5c9e73b453cadad3f9fce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_122.asset
+  importAddress: Guid(8268af28073d6b44d89f1c2365de8e68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_122.asset using Guid(8268af28073d6b44d89f1c2365de8e68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '209a1455c17082323b209589676aba30') in 0.0160008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7777b8835aa4d6a3abb8548bfd4cfca1 DependenciesID=78d0323890447b1731e7d0c7317a0ec2 StaticDependenciesID=39338d797f4dfcb9b3c0404846c07852 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_40.asset
+  importAddress: Guid(0c613769e6d22c04cb0c20f59c3160ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_40.asset using Guid(0c613769e6d22c04cb0c20f59c3160ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b59ff091470419c827e86534dcaa3d0') in 0.0167127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff59d73e8bd684c755fe4d6ade9eeee5 DependenciesID=86251eef9de04dd9973d91a4569c4a77 StaticDependenciesID=5b8fc175bca6c462307f8706163916dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_132.asset
+  importAddress: Guid(97b7109c43351994f89972c153b6ed18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_132.asset using Guid(97b7109c43351994f89972c153b6ed18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad257699fcf1521dd3491c066e90fbb6') in 0.0191115 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7216fb3ba65ada63b75b48a50bad5cb DependenciesID=cd5667d7511fe64a29f8cadd69e124a7 StaticDependenciesID=d35a7388d3b43ced64accc44eceb5f10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_76.asset
+  importAddress: Guid(72b9cb5cd142d4a4d805d5dc30c476c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_76.asset using Guid(72b9cb5cd142d4a4d805d5dc30c476c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2dd0b43bcf68b30808699b9e5867acf5') in 0.0190262 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29a5a74e020fe8400d9bc25da73f3eff DependenciesID=90d797edefb594acaf3fc7861704a1d5 StaticDependenciesID=52ea00040ba12a94ef5d3cb218e456f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free
+  importAddress: Guid(631a5d26e29e0094c899147c58ca51dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free using Guid(631a5d26e29e0094c899147c58ca51dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e386f12c41f5a792e74005b7b19c0399') in 0.0160681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5774f8479cf53e4446f845d1471cb9e9 DependenciesID=f42634459b504e1b203842d80a3b7c84 StaticDependenciesID=b3dc1c0da3d65802f3fdf245eb2da707 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_8.asset
+  importAddress: Guid(0e2cab3f02c7fb341a7d53298845604a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_8.asset using Guid(0e2cab3f02c7fb341a7d53298845604a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '916397e19467717631823a7de3e38e37') in 0.0168597 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5db79e643ae06ba56f15a0e51d4e1f7 DependenciesID=ea9a38c61d6cf3c4f7c4bbcd8d85512c StaticDependenciesID=3de12a17b089081238d737e5353f90ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_163.asset
+  importAddress: Guid(61cbf282f89f81847a4713719f690a60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_163.asset using Guid(61cbf282f89f81847a4713719f690a60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a0c03345e868578c2344a088f14e453b') in 0.0182912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efbfab4629dad650967e3c77a4a8195d DependenciesID=d01e090e0d978edf2678b8ea037203f1 StaticDependenciesID=e9a12eb49737bf58e34858938f5105e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_101.asset
+  importAddress: Guid(a7ae61f4b99e86740bdf4297d9e25b47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_101.asset using Guid(a7ae61f4b99e86740bdf4297d9e25b47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6dbb85a82b66ff91cec4c331cd62518d') in 0.0148973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25235500730420df9d64f272e1b80d65 DependenciesID=3362517275ead6d87a7a695198b05899 StaticDependenciesID=4058d7e3da48b33d5919efedf60b67db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_34.asset
+  importAddress: Guid(c5ad727bbcad46240b1d37ecf3f275f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_34.asset using Guid(c5ad727bbcad46240b1d37ecf3f275f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d53fb47957fe4dbadf73bce3d54f6c3') in 0.018575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b2f55ffdbda7fc03bab994c6bc6555c DependenciesID=7d7f763da429209958a0e41196e543c2 StaticDependenciesID=5764d9f1a8fde532dd4c5df8b320a41f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_167.asset
+  importAddress: Guid(3706f817add42ea41b2d8188b2c2de32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_167.asset using Guid(3706f817add42ea41b2d8188b2c2de32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb7647cbfc30b5c32961afb2dc7b6c31') in 0.0180044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28c2d26dd8a5ca5b54508c23fa23c45a DependenciesID=5a102f529281246b5d2e118661b711df StaticDependenciesID=6075ad5428ec44131b687382fbc16b91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_13.prefab
+  importAddress: Guid(dd6c6c0f2cff23a488ed09ad8ab8c2dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_13.prefab using Guid(dd6c6c0f2cff23a488ed09ad8ab8c2dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0da48ae321fd29c19c2d68a725722a0c') in 0.0192894 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31d1c106e83d73286cb3d915eef9ca14 DependenciesID=0f2e9ea5b9d0b2f18ea5015f17c4ec24 StaticDependenciesID=8cf4cab25175572bb7339d5d2bcaed71 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_68.asset
+  importAddress: Guid(961d20cb835a8a84197d9362cd9fcddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_68.asset using Guid(961d20cb835a8a84197d9362cd9fcddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2975cde564337392886d8f9ba4ecaff') in 0.0167381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76952c863c0caa52658d7c0c2c9186d7 DependenciesID=45504ae8cbc47c033dd08dc5d31b9b65 StaticDependenciesID=da7561544783ad9ccab591442aae49ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_56.asset
+  importAddress: Guid(8b5fd3f4903507840b77e6878986a4f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_56.asset using Guid(8b5fd3f4903507840b77e6878986a4f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '60425ec680a79e2c3d97a3280d4cdf0d') in 0.0218073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb575f4bd624514d1d918872cfced6ce DependenciesID=2ea10a7d07b45d2d3311591f672c8817 StaticDependenciesID=c001f2b7c112edda46b4792c15f1de3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_91.asset
+  importAddress: Guid(5ad159fe974c77a4bad038a286c53d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_91.asset using Guid(5ad159fe974c77a4bad038a286c53d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1730af8d0545f47d29df9dbb3e6efeb1') in 0.0172915 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2b3c84be8f70fb249ad34c721d468d1 DependenciesID=ef711924f8de3ef424f53d71f5cb0c79 StaticDependenciesID=e7ec3b8e7c43f9e9f17d1e3e1d731835 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_116.asset
+  importAddress: Guid(7849befd6c6d6524c921999e21f55787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_116.asset using Guid(7849befd6c6d6524c921999e21f55787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fda0c4fbf301d8e5188f8371e482c69a') in 0.0220958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a13fa2bbe8d011839401c121968a5c3 DependenciesID=c2f6426a438fe38e21dbc1bb2b2adb88 StaticDependenciesID=1bb87c2d133e8429ffe0b362357f6ee7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_props_free.png
+  importAddress: Guid(ae3918a914038694d852d0bb81f62473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Textures/Medieval_props_free.png using Guid(ae3918a914038694d852d0bb81f62473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4de75e14ea76be7345fdae336952ff62') in 0.0743117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=428cc8b2f00fbe026d09f81b55b25402 DependenciesID=5a19bceeb9a37354d30df2a07f6ea157 StaticDependenciesID=926cac87c2d17545578c0e26f2960c8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_176.asset
+  importAddress: Guid(8ea73c297b68c374797183f91bcf4c57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_176.asset using Guid(8ea73c297b68c374797183f91bcf4c57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2fb7f4081c8e09f3a14487feb6a25804') in 0.0162884 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a91b5f1490cc46986e37900fce0b0210 DependenciesID=0a9c1904d2ecd5b2d4efc4d2a4b91ba1 StaticDependenciesID=f7b04b5381a0b8ce303460c26c9e6c51 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_22.asset
+  importAddress: Guid(55198fbb560b87e4f825fffd7fd0b33d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_22.asset using Guid(55198fbb560b87e4f825fffd7fd0b33d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d5d019e9759c31eeb49fdb4eb13a3c7') in 0.0173594 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30dca869c749dff19f1a3c5d5a94d1dd DependenciesID=3b0d0d7427d2522faadd3e8a097f7413 StaticDependenciesID=fd7e223d8b4007f3f19162b542fece7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_102.asset
+  importAddress: Guid(0bb988223add60444a10f3dc3b09f484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_102.asset using Guid(0bb988223add60444a10f3dc3b09f484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4cbd95e6e8ceb41ca99f44f1ffa177eb') in 0.0156786 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ea083b8b7f738e4f6baaf597998b40e DependenciesID=b2690f9ddce2821443346f5e0fa9cbcc StaticDependenciesID=bc280337182e1bf946a5ba4f5f153002 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_10.prefab
+  importAddress: Guid(0eb2f5adb2435e74a9f73ead305b1ac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_10.prefab using Guid(0eb2f5adb2435e74a9f73ead305b1ac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '477c49289c9b2b62427832803c49eb7a') in 0.0201344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b7663a17ce850ef0e1c63f23d3b67da DependenciesID=ac7b0b99d02d6abc83c1cbcbc765d0b3 StaticDependenciesID=7b46fa1532ef6a836980d0c38f0e41a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_66.asset
+  importAddress: Guid(71d1a9f3c18301e4db3cea1ac29e26c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_66.asset using Guid(71d1a9f3c18301e4db3cea1ac29e26c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e983bf11648f815d4d6a7959bd3a138') in 0.0172509 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1857a246ab53468e1d6fe81853bfabe1 DependenciesID=175cd5c94914816015cc86a3d46cb48b StaticDependenciesID=f69f059ba5da7f7d3f381075936346b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_143.asset
+  importAddress: Guid(0408d3241447c144c88d54a94743bc80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_143.asset using Guid(0408d3241447c144c88d54a94743bc80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f4f0fe99ffa73fa2f3d8cb2513401478') in 0.0181771 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d0eb42cf0f3c4dfdd6f1bc101272ac5 DependenciesID=52e4ddc250ed7963650a355fa243a7c6 StaticDependenciesID=d469509453627eed8785e6f245c20c2e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_114.asset
+  importAddress: Guid(6b132860677b2ef48a1e580e539ad8df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_114.asset using Guid(6b132860677b2ef48a1e580e539ad8df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '294dcccf41694e6fe28cc044939f44d6') in 0.0156879 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75e77d6f96c849fb159eebfad55f0862 DependenciesID=a7a24092b12d855927f031475b775b9d StaticDependenciesID=d3b80eb6fcd157d407cfb5886d407ccd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_144.asset
+  importAddress: Guid(d6e732d63de558242b60cd989f34867a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_144.asset using Guid(d6e732d63de558242b60cd989f34867a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1dea3240560d30b76ff85b139ab95a15') in 0.0203324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e08a24f08aec1f126a5926522805b36b DependenciesID=9b64c8ec4b91630423695366dec4188b StaticDependenciesID=c5a94215706ca73ddb8383495b7abe4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_5.asset
+  importAddress: Guid(2fb88953e2c1c0c4a91f42a64ec98399) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Tiles_free/Medieval_tiles_free2_5.asset using Guid(2fb88953e2c1c0c4a91f42a64ec98399) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da8bd79c1df121244a3e0a4be97d5d54') in 0.016595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc5f5045545ed0f992d256eddbc0c9a8 DependenciesID=894cc8ebfc708d4ebeebfef884647715 StaticDependenciesID=1d66493f5c3ac8260284d2895744d919 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
