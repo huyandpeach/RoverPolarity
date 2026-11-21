@@ -12,7 +12,8 @@ public class PlayerState : MonoBehaviour
     public State currentState = State.Lumis;
 
     private SpriteRenderer spriteRenderer;
-    private bool canSwitchState = true;
+    private bool isSwitchLockedExternally;
+    private int zoneSwitchLockCount;
 
     private void Awake()
     {
@@ -26,7 +27,7 @@ public class PlayerState : MonoBehaviour
 
     private void Update()
     {
-        if (canSwitchState && Input.GetKeyDown(KeyCode.Q))
+        if (CanSwitchState && Input.GetKeyDown(KeyCode.Q))
         {
             SwitchState();
         }
@@ -42,8 +43,20 @@ public class PlayerState : MonoBehaviour
 
     public void SetSwitchLocked(bool isLocked)
     {
-        canSwitchState = !isLocked;
+        isSwitchLockedExternally = isLocked;
     }
+
+    public void AddZoneSwitchLock()
+    {
+        zoneSwitchLockCount++;
+    }
+
+    public void RemoveZoneSwitchLock()
+    {
+        zoneSwitchLockCount = Mathf.Max(0, zoneSwitchLockCount - 1);
+    }
+
+    private bool CanSwitchState => !isSwitchLockedExternally && zoneSwitchLockCount == 0;
 
     private void SwitchState()
     {

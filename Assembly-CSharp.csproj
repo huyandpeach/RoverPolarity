@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Trap.cs" />
     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
     <Compile Include="Assets\Scripts\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\StateChangeLockZone.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>

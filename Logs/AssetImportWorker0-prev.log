@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.8f1 (f8b72d3d7343) revision 16299821'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 24283 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX" at "2026-11-03T11:01:33.7532163Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 24351 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o1DUvysC1U6YXu8XwRaN7" at "2026-11-19T11:34:02.4330656Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-03T11:01:33Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19852, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-11-19T11:34:02Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8132, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              dc9415f813b04055811ae6a9af093c55
-  Correlation Id:          5ca4fcd1745aa039e678542cffc9783c
-  External correlation Id: 5285439644597821370
+  Session Id:              b76060c18856458f8c52df9a7ff011d9
+  Correlation Id:          5c898580439665cfc9f2072bf6095ea7
+  External correlation Id: 8275963525518677014
   Machine Id:              xxlszU6pM1W9CvH3y/F/08KRFHc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kTEzXDKSQ15f8zyJQ-odX-notifications" at "2026-11-03T11:01:33.7970546Z"
-[Licensing::Module] Licensing Background thread has ended after 0.04s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-o1DUvysC1U6YXu8XwRaN7" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o1DUvysC1U6YXu8XwRaN7-notifications" at "2026-11-19T11:34:02.4873037Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Unity.exe
@@ -30,9 +30,9 @@ C:/Users/NGH/RoverPolarity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50096
+64415
 -licensingIpc
-LicenseClient-kTEzXDKSQ15f8zyJQ-odX
+LicenseClient-o1DUvysC1U6YXu8XwRaN7
 -force-d3d12
 -job-worker-count
 5
@@ -79,12 +79,12 @@ C:/Users/NGH/RoverPolarity
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [23252]  Target information:
+Player connection [28588]  Target information:
 
-Player connection [23252]  * "[IP] 192.168.102.17 [Port] 0 [Flags] 2 [Guid] 2311015691 [EditorId] 2311015691 [Version] 1048832 [Id] WindowsEditor(7,huyandpeach) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28588]  * "[IP] 10.25.33.54 [Port] 0 [Flags] 2 [Guid] 3562796991 [EditorId] 3562796991 [Version] 1048832 [Id] WindowsEditor(7,huyandpeach) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23252] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23252] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28588] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28588] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -96,7 +96,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.90 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 7.00 ms, found 6 plugins.
 Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/NGH/RoverPolarity/Assets
@@ -114,13 +114,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002016 seconds.
+Registered in 0.002040 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -129,23 +129,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.370 seconds
-Domain Reload Profiling: 774ms
-	BeginReloadAssembly (123ms)
-	RebuildCommonClasses (32ms)
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 996ms
+	BeginReloadAssembly (147ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (119ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (159ms)
-	FinalizeReload (371ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (144ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (229ms)
+	FinalizeReload (473ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -198,7 +198,7 @@ Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 4.56 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -207,572 +207,63 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 3.27 ms, found 6 plugins.
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 4.79 ms, found 6 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.618 seconds
-Domain Reload Profiling: 2749ms
-	BeginReloadAssembly (160ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (828ms)
-		LoadAssemblies (467ms)
-		AnalyzeDomain (444ms)
-			TypeCache.Refresh (346ms)
-				TypeCache.ScanAssembly (324ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1618ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (908ms)
-			ProcessInitializeOnLoadMethodAttributes (353ms)
-			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11086 unused Assets / (23.2 MB). Loaded Objects now: 11941.
-Memory consumption went from 236.5 MB to 213.3 MB.
-Total: 24.070700 ms (FindLiveObjects: 0.919900 ms CreateObjectMapping: 0.946300 ms MarkObjects: 16.782900 ms  DeleteObjects: 5.419100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 507079.538648 seconds.
-  path: Assets/PlayerAnimations/Animations/New Animation.anim
-  importAddress: Guid(d0bcdfa31aa04b446afea7da99734667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/PlayerAnimations/Animations/New Animation.anim using Guid(d0bcdfa31aa04b446afea7da99734667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce64d29debfe9cf61bd3ff41652c87d1') in 0.1023431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da7010d70efef591b0b81a9f2e4acc3a DependenciesID=5fa0eef2d4c9238054aae293e4a7c6fa StaticDependenciesID=eed57e8816e225ae72768854334bcb73 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 189.204167 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Attack.png
-  importAddress: Guid(77eb5f6454af20a439335a0a923065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Attack.png using Guid(77eb5f6454af20a439335a0a923065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bbd75510ffb874446a41af8df5beeb84') in 0.1346194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1e2d5dc8dc43059e9d8b6afd262c53d DependenciesID=e3e16f89a76d119c03dcc5ef1921760e StaticDependenciesID=262d96ee5673d2ab8e9789b34d114e06 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.774956 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Attack.png
-  importAddress: Guid(77eb5f6454af20a439335a0a923065dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Attack.png using Guid(77eb5f6454af20a439335a0a923065dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '223de72cc73574bf89249ea36f9760ba') in 0.0650889 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aa4ae9f2cf711d498f3b67bc11ef28b DependenciesID=52b0b3bec757f2c74d73c75d51936ccd StaticDependenciesID=f5591cb51446c5edf828580a91fd8504 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.244552 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Death.png
-  importAddress: Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Death.png using Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'baefb9729ef2b66069c1ebb45ce27658') in 0.0937949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42fc13c35eaa80ff45476a1754f4c308 DependenciesID=b67b1b5307555e75663c2ebfaedc96e3 StaticDependenciesID=f657afa7290e8dce62d194e2f956454d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.844865 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Death.png
-  importAddress: Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Death.png using Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e385cdb0ba75ef8fcfc8f4604eee187') in 0.0347478 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=820b342d408938d6e07e7e0d4c2df4a1 DependenciesID=2c9cc6163e43a2589cee824ed2fb9a0a StaticDependenciesID=5cf61a6b2e347f9e1ca85bbf29a21177 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.600829 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Fall.png
-  importAddress: Guid(862a51da390209a4faea1934a3c2c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Fall.png using Guid(862a51da390209a4faea1934a3c2c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2831a58321b7f3dd4d397d7f061e1c55') in 0.0356732 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0e41530031cc0dcd8a6496203d886ba DependenciesID=5eeb7d7c0eb5e3cb817a4cf53c2bdfc8 StaticDependenciesID=b82228d60b40d47b1859243506dd1bff 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.895192 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Fall.png
-  importAddress: Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Fall.png using Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9dcfb04cb5964a3783d6571189c80aed') in 0.0322442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4e0673d7c7a0d8774805bc5824e9212 DependenciesID=3aa326346133895f66d89721ea0765f4 StaticDependenciesID=788383c53da9d1882fe9fc56b96d23d4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.816592 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Get hit.png
-  importAddress: Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Get hit.png using Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a5a316d8b2cdbfd004221499f98c33ef') in 0.0284946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80744b156978e089f32afe734f40a51a DependenciesID=2d9805947e66e0f7eeab0317db288cab StaticDependenciesID=099600dee13159d8a44302c486fd544f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.901452 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Get hit.png
-  importAddress: Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Get hit.png using Guid(d1f60abddafaaf24db43fb4be51adf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '88d81aee5647672143f75f3e2af7c942') in 0.0312883 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07a8d1f8d381e58608d5927d83785381 DependenciesID=c5bc801daee75b9b23962b6f02f899bd StaticDependenciesID=e5653d695694da2df7387606fcd463c2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.109606 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Walk.png
-  importAddress: Guid(05e0a75274ead9e47b322de0fea771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Evil Wizard 3/Sprites/Walk.png using Guid(05e0a75274ead9e47b322de0fea771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c63c50f7f78bbe4cddfd5a9899af85ec') in 0.0467692 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e4b2c29a5832b415559449fa1a141d8 DependenciesID=5e80d226cbd109d245dfe2dba1aa7e87 StaticDependenciesID=020c94a3758dab09c7aa856b6af3a883 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.878422 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Walk.png
-  importAddress: Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Evil Wizard 3/Sprites/Walk.png using Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a101e9571431cb73d0aad0b55bf22b7') in 0.026024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec3073f4ea8532555ea2204c8789c9fc DependenciesID=de68369b38a666a7e6cf1cf9870ab51d StaticDependenciesID=3f8c8f7d48cba2dd9510818472a2a3b3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.30 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.39 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.945 seconds
-Domain Reload Profiling: 3405ms
-	BeginReloadAssembly (310ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (105ms)
+- Finished resetting the current domain, in  1.873 seconds
+Domain Reload Profiling: 3218ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (31ms)
 	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (969ms)
-		LoadAssemblies (588ms)
-		AnalyzeDomain (482ms)
-			TypeCache.Refresh (12ms)
-			BuildScriptInfoCaches (453ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1945ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (980ms)
+		LoadAssemblies (491ms)
+		AnalyzeDomain (590ms)
+			TypeCache.Refresh (426ms)
+				TypeCache.ScanAssembly (398ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1873ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (867ms)
-			ProcessInitializeOnLoadMethodAttributes (519ms)
-			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.95 ms, found 6 plugins.
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (1012ms)
+			ProcessInitializeOnLoadMethodAttributes (464ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 6 plugins.
 Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (22.9 MB). Loaded Objects now: 11956.
-Memory consumption went from 240.1 MB to 217.2 MB.
-Total: 24.008800 ms (FindLiveObjects: 0.986300 ms CreateObjectMapping: 1.075800 ms MarkObjects: 13.943900 ms  DeleteObjects: 8.001300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 344.560620 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png
-  importAddress: Guid(5f553a31b529d8d4a9ecec5dc905e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png using Guid(5f553a31b529d8d4a9ecec5dc905e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3b3b288d0ee83ff30b152ab690672e52') in 0.1031551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=201dcc5c93d7c32b24ff382c01c3f393 DependenciesID=90779891980b912c43ad138f91cde977 StaticDependenciesID=2d4300eb4a2c37b27ebfc75f5a47cb26 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 11086 unused Assets / (20.7 MB). Loaded Objects now: 11957.
+Memory consumption went from 240.4 MB to 219.7 MB.
+Total: 23.608600 ms (FindLiveObjects: 1.005700 ms CreateObjectMapping: 1.138900 ms MarkObjects: 15.168500 ms  DeleteObjects: 6.292200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png
-  importAddress: Guid(ffb746d3193730a45817c315e46e1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png using Guid(ffb746d3193730a45817c315e46e1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f38c58ff445117f4fc1bb4663631c523') in 0.0213869 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f8e1c7f83b3d4c9f0f6562b32d5a56 DependenciesID=8c268e6c94efb5de9604665e4764c59c StaticDependenciesID=d2d880fef85ecfbfbc55780e77423b73 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.18 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.03 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.895 seconds
-Domain Reload Profiling: 3107ms
-	BeginReloadAssembly (295ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (763ms)
-		LoadAssemblies (489ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (10ms)
-			BuildScriptInfoCaches (345ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1896ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (865ms)
-			ProcessInitializeOnLoadMethodAttributes (530ms)
-			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.58 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (21.9 MB). Loaded Objects now: 11963.
-Memory consumption went from 240.2 MB to 218.3 MB.
-Total: 29.612300 ms (FindLiveObjects: 1.190600 ms CreateObjectMapping: 1.825400 ms MarkObjects: 17.230200 ms  DeleteObjects: 9.363700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 416.024328 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Demo/Demo scene.unity
-  importAddress: Guid(385d77417811a2a4a94aa431d5182b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Demo/Demo scene.unity using Guid(385d77417811a2a4a94aa431d5182b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '65e527d7d8c04fa5dac4d6913d5f4d11') in 0.0035834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1235efd392e48891801b5e9c6e293e00 DependenciesID=5c21d59f2f04c8d1c4bec13744a57a99 StaticDependenciesID=797293b6a0f4f7acce50b2747e53cab9 
+  Time since last request: 167709.751129 seconds.
+  path: Assets/Scripts/PolaritySplit.cs
+  importAddress: Guid(1530a7b864cffe44696b41a78498bc50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PolaritySplit.cs using Guid(1530a7b864cffe44696b41a78498bc50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a297a03dc00db62ed10b5a3441fd7867') in 0.0930624 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8236fe36ed4b01df8076891686a03353 DependenciesID=feac5b2ae660816cf0198dac18ee088f StaticDependenciesID=07e9f6f8786f111497809c712dc555da 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.52 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 6.17 ms, found 6 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.003 seconds
-Domain Reload Profiling: 3231ms
-	BeginReloadAssembly (276ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (807ms)
-		LoadAssemblies (513ms)
-		AnalyzeDomain (383ms)
-			TypeCache.Refresh (12ms)
-			BuildScriptInfoCaches (358ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2003ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (269ms)
-			ProcessInitializeOnLoadAttributes (926ms)
-			ProcessInitializeOnLoadMethodAttributes (533ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.89 ms, found 6 plugins.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11084 unused Assets / (21.2 MB). Loaded Objects now: 11966.
-Memory consumption went from 240.2 MB to 219.0 MB.
-Total: 26.745800 ms (FindLiveObjects: 1.069800 ms CreateObjectMapping: 1.233800 ms MarkObjects: 17.359100 ms  DeleteObjects: 7.080900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.428175 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/Props/props.png
-  importAddress: Guid(6e65a3557749f0943860a3c4639dcb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/Props/props.png using Guid(6e65a3557749f0943860a3c4639dcb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8158df7847b6a9bf1dcd201fc87cad35') in 0.1131348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0d8f3c8a0e26fdce0db52d90c0e2e3a DependenciesID=71338b339e600a83868cdf6d717eaa15 StaticDependenciesID=34a99b4e1d582d491da941f2a53c8b90 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.930697 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/grass.prefab
-  importAddress: Guid(09b9391e7a628a548963c17f2caed9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/grass.prefab using Guid(09b9391e7a628a548963c17f2caed9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '569bb618bbccb61bc57c6361eb478d9c') in 0.5031679 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe0a8d4af67ff66d15b933415995b077 DependenciesID=3e9308cbdeccef7602c8190a5ec799f2 StaticDependenciesID=49f7f35746b64b8a20516551e2b74efa 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_5.asset
-  importAddress: Guid(e6f23b2ade6b4d942a09f438aeb0ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_5.asset using Guid(e6f23b2ade6b4d942a09f438aeb0ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '86a43a7ac6bdd6214348b6a25bc16231') in 0.0210682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f23385f152c4c3fc6a227ee6e47caf0 DependenciesID=1a3246749230dbc22d9e24e1b76e5d06 StaticDependenciesID=d78e1b2752c1d64fee8449005bc878a6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_2.asset
-  importAddress: Guid(1e787df5242aaa14c98730927cd894e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_2.asset using Guid(1e787df5242aaa14c98730927cd894e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6827a2b7fc5529817847ccf15b9109dc') in 0.0165055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e1e856e7a20059ca0420d7f927f27b3 DependenciesID=0cbcc22df0d0acef10a0810fc32444d4 StaticDependenciesID=74787262a8e114884ffd9d8d997a3f6d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_13.asset
-  importAddress: Guid(760a41e7ebc9f814080b1b8669283217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_13.asset using Guid(760a41e7ebc9f814080b1b8669283217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '986e07582c57f532b5cdd49edb453043') in 0.0168329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=415bce8ed2d93a35a1658e40b7dd3b2f DependenciesID=3bd895301d99a6ade61da88089527299 StaticDependenciesID=4f3d9cdb9a15d1e00909c3dcee51bc22 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_15.asset
-  importAddress: Guid(eb86c5d294350e241b076975fae48a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_15.asset using Guid(eb86c5d294350e241b076975fae48a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f888e53bac7071975fa2158ccfe558e') in 0.0188899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae70f29f02b9ca2af6f501e81a5af183 DependenciesID=59ccaae09d3f66d1b2540bf069bb9009 StaticDependenciesID=a86e0c1eed2c3d1f4b959886d0be72ec 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_19.asset
-  importAddress: Guid(7d461925f4582b74080d033f19549199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_19.asset using Guid(7d461925f4582b74080d033f19549199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '34452ee70379bf03292d29e30b82b962') in 0.0149817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=358729cb5290e43ff4e5f1a9c19c70d5 DependenciesID=3d448cc53af564adc5f267ec23e94e40 StaticDependenciesID=d19f70359c4a039e75d58c47f1a1b443 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  importAddress: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69b39db2ba649dfd9b1bb8424b1eb607') in 0.0654714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=146f8a09846262a01b13c62145c93e9c DependenciesID=bfc10699169b1a5b5afa3d8cfe26292b StaticDependenciesID=61e4dba4b04d85979021a9f9cdd83c1c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_7.asset
-  importAddress: Guid(0882d0fc6ce9771458e17868cb0d3fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_7.asset using Guid(0882d0fc6ce9771458e17868cb0d3fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7a0daee83eee78c3786a7219bae8c6d1') in 0.0164496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=217d98ae0933ca39382d812c8997b9dd DependenciesID=c6a85bdf9c35a6507348744f74fffb35 StaticDependenciesID=92c4fadde2436ff6b24e4d59b5d88e0f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 4944.685004 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  importAddress: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'faf27684bb562bae46d982068c7896dd') in 0.040879 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9ac169bb7fcfe1749ea7eff5bf97b08 DependenciesID=e4608d6503dbfbc4b42cd2d5859f38dd StaticDependenciesID=3d417a1afaf4986d847a39b100afbe24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_26.asset
-  importAddress: Guid(9dd371e520eb8af4ba910e5447d2001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_26.asset using Guid(9dd371e520eb8af4ba910e5447d2001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2d240f619e4d41db19236a3445085650') in 0.0186693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=297f02b359eae03ae13a320b0782ad01 DependenciesID=768c0bedf5efb82c634cfbaf1a2a5fb2 StaticDependenciesID=4ffb35cb129bb8038a6a81758ce94dfd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_25.asset
-  importAddress: Guid(1a33991e46041bb419f1eb138f657050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_25.asset using Guid(1a33991e46041bb419f1eb138f657050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '71bb460731a79d0bfec1ad963b49aab1') in 0.0182817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83606353268d5da422b0229927face00 DependenciesID=b3c5f0f8e309aad1b2974122fa0c4934 StaticDependenciesID=72e1979c300538d2e36e93a02815461d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_16.asset
-  importAddress: Guid(9999e55343135324a99aa7c0efcfb968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_16.asset using Guid(9999e55343135324a99aa7c0efcfb968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b917efc6aee737dfb1902b4a7a2d183b') in 0.0168507 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3275928512b67173e26e28efb71e0802 DependenciesID=2b8314fecbe6783799e301457a7eec06 StaticDependenciesID=10c134a8238146421871e52bb7919d6e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_4.asset
-  importAddress: Guid(03e790a2a5c6f6f49bfdeef04b5fbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_4.asset using Guid(03e790a2a5c6f6f49bfdeef04b5fbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cfb398d49f6773fa28916926c64e219a') in 0.0204073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a5372c6836da5e6e2fa26468b9fca03 DependenciesID=fe04394a3ce40db439d4b489c0dfe171 StaticDependenciesID=dee98728f47b30ea1d8cc0ede53f95dd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.898510 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_28.asset
-  importAddress: Guid(e8efa0cd92dbd144989bdbb7497b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_28.asset using Guid(e8efa0cd92dbd144989bdbb7497b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '351a7a7b13a36058b92209a990647296') in 0.0166548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1587ba7c812471355f022c724d420e57 DependenciesID=f70770de101bbd8bbea79c273bb5fc90 StaticDependenciesID=52519dc963cdae9b6c971fda1b008a75 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_31.asset
-  importAddress: Guid(d83caa78dd4ee6440b9c4f25fcb01e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_31.asset using Guid(d83caa78dd4ee6440b9c4f25fcb01e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e923792ff693eaf4bb20361e147204be') in 0.0228731 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6536b29349da6e32ef5969a162e9708 DependenciesID=39efcc5f612954d1df6b5f0d9cbe1c14 StaticDependenciesID=817992f97c5e9f927cdca599ee333ddb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_36.asset
-  importAddress: Guid(6e9388e52f0918e44b630a0af445a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_36.asset using Guid(6e9388e52f0918e44b630a0af445a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c845eaf4e2afe89435778a504d8dfa8f') in 0.019312 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=359859b2ebe9bf9d6197176e7f10a96f DependenciesID=a0c724283a7afd26e156e4ca9cbe36c5 StaticDependenciesID=85fabd0a167aa053fe289f154c9bb3fb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_39.asset
-  importAddress: Guid(2aae50b4eab64244d88fc856af549af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_39.asset using Guid(2aae50b4eab64244d88fc856af549af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '055a59706e38e39adb84a14234d5de68') in 0.0211463 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aaf6a2ac11aaba8f097ab16d92b10b0 DependenciesID=a00f8043b0f48583607f60a15f54fd96 StaticDependenciesID=65b939a3d382692e4d94066ede5c2e1a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_35.asset
-  importAddress: Guid(ed1c9c0945e4abd42b500dec5f8da098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_35.asset using Guid(ed1c9c0945e4abd42b500dec5f8da098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d13f8e65df3bb8076d88cbcee557698') in 0.016075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6488799ac346ec4152b36b4c57ae8fa DependenciesID=de42202ef7408b3009df1bab1c773f00 StaticDependenciesID=603a5ec0159ca82f28d6bf50600fbffd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_30.asset
-  importAddress: Guid(0e8c505f98df55d4a9d31d31efd4f56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Platformer - Forest Asset Pack/tile palette/Tileset_30.asset using Guid(0e8c505f98df55d4a9d31d31efd4f56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '751163b2fd60858fa192d681a0a4899f') in 0.0196684 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c35271b8e42cfe43e30120647448a697 DependenciesID=28635e49cebdf08211530628078c7ceb StaticDependenciesID=3baae256859b5464a707b6cf6827ed8f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
