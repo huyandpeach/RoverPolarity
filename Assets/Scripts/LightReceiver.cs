@@ -13,6 +13,10 @@ public class LightReceiver : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
         SetActivated(startsActivated);
     }
 

@@ -21,13 +21,19 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (groundCheck == null)
+        {
+            Debug.LogWarning("PlayerMovement needs a Ground Check transform to detect the ground.", this);
+        }
     }
 
     private void Update()
     {
         Move();
-        Jump();
-        UpdateAnimator();
+        bool isGrounded = IsGrounded();
+        Jump(isGrounded);
+        UpdateAnimator(isGrounded);
         FlipSprite();
     }
 
@@ -41,9 +47,9 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 
-    private void Jump()
+    private void Jump(bool isGrounded)
     {
-        if (IsGrounded())
+        if (isGrounded)
         {
             jumpCount = 0;
         }
@@ -61,6 +67,9 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
+        if (groundCheck == null)
+            return false;
+
         return Physics2D.OverlapCircle(
             groundCheck.position,
             groundRadius,
@@ -68,14 +77,20 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 
-    private void UpdateAnimator()
+    private void UpdateAnimator(bool isGrounded)
     {
+        if (playerAnimator == null)
+            return;
+
         playerAnimator.SetFloat("moveX", body.linearVelocity.x);
-        playerAnimator.SetBool("isGrounded", IsGrounded());
+        playerAnimator.SetBool("isGrounded", isGrounded);
     }
 
     private void FlipSprite()
     {
+        if (spriteRenderer == null)
+            return;
+
         if (body.linearVelocity.x < 0)
         {
             spriteRenderer.flipX = true;

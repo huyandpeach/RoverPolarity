@@ -19,14 +19,18 @@ public class Crystal : MonoBehaviour
         if (isCollected || !other.CompareTag("Player"))
             return;
 
-        isCollected = true;
-
-        if (crystalManager != null)
+        if (crystalManager == null)
         {
-            crystalManager.CollectCrystal(this);
+            crystalManager = FindAnyObjectByType<CrystalManager>();
+        }
+
+        if (crystalManager == null)
+        {
+            Debug.LogWarning("Crystal cannot be collected without a CrystalManager.", this);
             return;
         }
 
-        gameObject.SetActive(false);
+        isCollected = true;
+        crystalManager.CollectCrystal(this);
     }
 }
