@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Adds a state-switch lock while the player is inside this zone.
 public class StateChangeLockZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)

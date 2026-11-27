@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Respawns the player if they enter the zone in the wrong polarity.
 public class ZoneController : MonoBehaviour
 {
     [SerializeField] private PlayerState.State requiredState;
@@ -25,6 +26,7 @@ public class ZoneController : MonoBehaviour
             return;
         }
 
+        // Fall back to the world origin if the player has no respawn component.
         other.transform.position = Vector3.zero;
     }
 }

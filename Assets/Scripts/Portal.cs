@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Completes the level when the player enters an open portal.
 public class Portal : MonoBehaviour
 {
     [SerializeField] private bool isOpen;
@@ -46,6 +47,7 @@ public class Portal : MonoBehaviour
         levelCompleted = true;
         Debug.Log("Level Complete!");
 
+        // Prefer the completion panel; otherwise load the configured scene directly.
         if (levelCompleteUI != null && levelCompleteUI.Show(player))
             return;
 

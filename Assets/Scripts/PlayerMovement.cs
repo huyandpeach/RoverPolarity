@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Handles player movement, jumping, animation, and sprite facing.
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
@@ -49,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump(bool isGrounded)
     {
+        // Landing resets the number of jumps available.
         if (isGrounded)
         {
             jumpCount = 0;

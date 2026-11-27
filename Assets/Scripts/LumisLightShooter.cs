@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Fires light in the last horizontal direction while the player is Lumis.
 public class LumisLightShooter : MonoBehaviour
 {
     [SerializeField] private KeyCode shootKey = KeyCode.F;
@@ -72,6 +73,7 @@ public class LumisLightShooter : MonoBehaviour
         lightProjectile.Initialize(aimDirection, projectileSpeed, projectileLifetime, gameObject);
     }
 
+    // Build a usable projectile at runtime if no prefab is assigned.
     private GameObject CreateDefaultProjectile(Vector3 spawnPosition)
     {
         GameObject projectile = new GameObject("Lumis Light Projectile");

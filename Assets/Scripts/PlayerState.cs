@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Stores the current polarity and controls manual state switching.
 public class PlayerState : MonoBehaviour
 {
     public enum State
@@ -56,18 +57,12 @@ public class PlayerState : MonoBehaviour
         zoneSwitchLockCount = Mathf.Max(0, zoneSwitchLockCount - 1);
     }
 
+    // Switching is blocked by an external lock or any overlapping lock zone.
     private bool CanSwitchState => !isSwitchLockedExternally && zoneSwitchLockCount == 0;
 
     private void SwitchState()
     {
-        if (currentState == State.Lumis)
-        {
-            SetState(State.Umbra);
-        }
-        else
-        {
-            SetState(State.Lumis);
-        }
+        SetState(currentState == State.Lumis ? State.Umbra : State.Lumis);
     }
 
     private void UpdateVisual()

@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 
+// Tracks collected crystals, updates the counter, and opens the portal.
 public class CrystalManager : MonoBehaviour
 {
     [SerializeField] private int requiredCrystalCount;
@@ -11,6 +12,7 @@ public class CrystalManager : MonoBehaviour
 
     private void Start()
     {
+        // A non-positive requirement uses the number of active crystals in the scene.
         if (requiredCrystalCount <= 0)
         {
             requiredCrystalCount = FindObjectsByType<Crystal>().Length;

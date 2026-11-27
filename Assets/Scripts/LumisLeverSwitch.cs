@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Lets Lumis activate the lever while pushing Umbra away.
 public class LumisLeverSwitch : MonoBehaviour
 {
     [SerializeField] private Door targetDoor;
@@ -23,6 +24,7 @@ public class LumisLeverSwitch : MonoBehaviour
         TryUseLever(other);
     }
 
+    // Recheck while overlapping, including after a state change.
     private void OnTriggerStay2D(Collider2D other)
     {
         TryUseLever(other);

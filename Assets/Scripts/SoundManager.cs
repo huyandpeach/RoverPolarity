@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Plays sound effects and ambient clips through their assigned audio sources.
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;

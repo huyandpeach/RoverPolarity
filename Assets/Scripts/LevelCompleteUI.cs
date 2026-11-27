@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Shows the completion panel, pauses gameplay, and handles navigation.
 public class LevelCompleteUI : MonoBehaviour
 {
     [SerializeField] private GameObject completePanel;
@@ -61,6 +62,7 @@ public class LevelCompleteUI : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    // The manager must stay outside the panel so hiding it does not disable the manager.
     private bool IsPanelValid()
     {
         return completePanel != null && !transform.IsChildOf(completePanel.transform);
@@ -78,6 +80,7 @@ public class LevelCompleteUI : MonoBehaviour
             player.GetComponent<PolaritySplit>(),
             player.GetComponent<LumisLightShooter>()
         };
+        // Restore each control to its previous state when gameplay resumes.
         controlsWereEnabled = new bool[playerControls.Length];
 
         for (int i = 0; i < playerControls.Length; i++)

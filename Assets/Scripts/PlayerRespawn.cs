@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+// Pauses the player, waits, and returns them to the latest checkpoint.
 public class PlayerRespawn : MonoBehaviour
 {
     [SerializeField] private Transform startingPoint;
@@ -33,6 +34,7 @@ public class PlayerRespawn : MonoBehaviour
         if (isWaitingForRespawn)
             return;
 
+        // Merge the clone and freeze controls and physics during the delay.
         isWaitingForRespawn = true;
         MergeSplit();
         SetControlsPaused(true);
@@ -87,6 +89,7 @@ public class PlayerRespawn : MonoBehaviour
                 GetComponent<PolaritySplit>(),
                 GetComponent<LumisLightShooter>()
             };
+            // Remember which controls were enabled before respawning.
             controlsWereEnabled = new bool[playerControls.Length];
 
             for (int i = 0; i < playerControls.Length; i++)
@@ -121,6 +124,7 @@ public class PlayerRespawn : MonoBehaviour
         isWaitingForRespawn = false;
     }
 
+    // Restore the player if this component is disabled during the delay.
     private void OnDisable()
     {
         if (!isWaitingForRespawn)

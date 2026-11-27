@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Animator state behaviour template; no callbacks are currently active.
 public class moveX : StateMachineBehaviour
 {
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state

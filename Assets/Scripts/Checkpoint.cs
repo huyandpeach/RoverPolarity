@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Saves this checkpoint as the player's next respawn location.
 public class Checkpoint : MonoBehaviour
 {
     [SerializeField] private Transform respawnPoint;
@@ -13,6 +14,7 @@ public class Checkpoint : MonoBehaviour
         if (playerRespawn == null)
             return;
 
+        // Use the checkpoint object itself when no separate respawn point is assigned.
         Vector3 checkpointPosition = respawnPoint != null ? respawnPoint.position : transform.position;
         playerRespawn.SetCheckpoint(checkpointPosition);
     }

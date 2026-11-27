@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Opens or closes the door by changing its collider and colour.
 public class Door : MonoBehaviour
 {
     [SerializeField] private bool startsOpen;

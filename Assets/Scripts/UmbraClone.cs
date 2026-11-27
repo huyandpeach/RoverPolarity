@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Identifies the stationary clone as Umbra and sets up its appearance.
 public class UmbraClone : MonoBehaviour
 {
     public PlayerState.State State => PlayerState.State.Umbra;

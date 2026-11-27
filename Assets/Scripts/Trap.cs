@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Sends the player back to a checkpoint when they touch the trap.
 public class Trap : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
@@ -14,6 +15,7 @@ public class Trap : MonoBehaviour
             return;
         }
 
+        // Fall back to the world origin if the player has no respawn component.
         other.transform.position = Vector3.zero;
     }
 }

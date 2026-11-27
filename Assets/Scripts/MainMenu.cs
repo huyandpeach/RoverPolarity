@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Controls menu panels, level loading, and quitting the game.
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private string firstLevelSceneName = "Level1";
@@ -60,6 +61,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    // Stop Play Mode in the editor; quit the application in a build.
     public void QuitGame()
     {
 #if UNITY_EDITOR

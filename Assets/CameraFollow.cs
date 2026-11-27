@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Smoothly follows the target in 2D while keeping the camera at Z = -10.
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Moves a Lumis projectile and activates a receiver on contact.
 public class LightProjectile : MonoBehaviour
 {
     private static Sprite defaultSprite;
@@ -9,6 +10,7 @@ public class LightProjectile : MonoBehaviour
     private float destroyTime;
     private bool isInitialized;
 
+    // Generate and reuse a simple sprite when no projectile prefab is assigned.
     public static Sprite CreateDefaultSprite()
     {
         if (defaultSprite != null)
@@ -61,6 +63,7 @@ public class LightProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Ignore the player and the Umbra clone; other contacts consume the projectile.
         if (other.gameObject == owner || other.CompareTag("Player"))
             return;
 

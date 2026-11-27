@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Splits Umbra into a stationary clone and a controllable Lumis player.
 public class PolaritySplit : MonoBehaviour
 {
     [SerializeField] private KeyCode splitKey = KeyCode.E;
@@ -54,6 +55,7 @@ public class PolaritySplit : MonoBehaviour
         isSplit = true;
         splitTimer = splitDuration;
 
+        // Keep the player in Lumis until the split ends.
         playerState.SetState(PlayerState.State.Lumis);
         playerState.SetSwitchLocked(true);
 
@@ -80,6 +82,7 @@ public class PolaritySplit : MonoBehaviour
         cloneBody.bodyType = RigidbodyType2D.Kinematic;
         cloneBody.gravityScale = 0f;
 
+        // Trigger colliders let the player pass through the clone.
         Collider2D playerCollider = GetComponent<Collider2D>();
         if (playerCollider is BoxCollider2D playerBox)
         {
@@ -98,6 +101,7 @@ public class PolaritySplit : MonoBehaviour
         return clone;
     }
 
+    // Remove the clone and release the switching lock without changing the current state.
     private void Merge()
     {
         if (!isSplit && activeClone == null)

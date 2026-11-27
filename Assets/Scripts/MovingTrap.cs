@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Moves a trap back and forth between its starting position and an endpoint.
 public class MovingTrap : MonoBehaviour
 {
     [SerializeField] private Transform endPoint;
@@ -33,6 +34,7 @@ public class MovingTrap : MonoBehaviour
         }
     }
 
+    // Show the endpoint and path when the trap is selected in the editor.
     private void OnDrawGizmosSelected()
     {
         if (endPoint == null)

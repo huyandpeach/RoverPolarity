@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Registers this crystal once when the player touches it.
 public class Crystal : MonoBehaviour
 {
     [SerializeField] private CrystalManager crystalManager;
