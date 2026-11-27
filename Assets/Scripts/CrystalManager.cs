@@ -1,9 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class CrystalManager : MonoBehaviour
 {
     [SerializeField] private int requiredCrystalCount;
     [SerializeField] private Portal portal;
+    [SerializeField] private TMP_Text crystalCounterText;
 
     private int collectedCrystalCount;
 
@@ -24,12 +26,14 @@ public class CrystalManager : MonoBehaviour
             portal.SetOpen(requiredCrystalCount == 0);
         }
 
+        UpdateCrystalText();
         Debug.Log("Crystals: 0/" + requiredCrystalCount);
     }
 
     public void CollectCrystal(Crystal crystal)
     {
         collectedCrystalCount++;
+        UpdateCrystalText();
 
         if (crystal != null)
         {
@@ -41,6 +45,14 @@ public class CrystalManager : MonoBehaviour
         if (collectedCrystalCount >= requiredCrystalCount)
         {
             OpenPortal();
+        }
+    }
+
+    private void UpdateCrystalText()
+    {
+        if (crystalCounterText != null)
+        {
+            crystalCounterText.text = "Crystal: " + collectedCrystalCount + "/" + requiredCrystalCount;
         }
     }
 

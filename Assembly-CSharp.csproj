@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\PolaritySplit.cs" />
     <Compile Include="Assets\Scripts\Portal.cs" />
     <Compile Include="Assets\Scripts\MovingTrap.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\LumisLightShooter.cs" />
     <Compile Include="Assets\moveX.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\CrystalManager.cs" />
     <Compile Include="Assets\Scripts\Trap.cs" />
     <Compile Include="Assets\Scripts\StateChangeLockZone.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
     <Compile Include="Assets\Scripts\PlayerState.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
