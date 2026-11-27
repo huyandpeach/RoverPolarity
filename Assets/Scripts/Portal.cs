@@ -5,10 +5,12 @@ public class Portal : MonoBehaviour
 {
     [SerializeField] private bool isOpen;
     [SerializeField] private string nextSceneName;
+    [SerializeField] private LevelCompleteUI levelCompleteUI;
     [SerializeField] private Color closedColor = new Color(0.35f, 0.35f, 0.35f);
     [SerializeField] private Color openColor = new Color(0.2f, 0.9f, 1f);
 
     private SpriteRenderer spriteRenderer;
+    private bool levelCompleted;
 
     private void Awake()
     {
@@ -33,12 +35,19 @@ public class Portal : MonoBehaviour
             return;
         }
 
-        CompleteLevel();
+        CompleteLevel(other.gameObject);
     }
 
-    private void CompleteLevel()
+    private void CompleteLevel(GameObject player)
     {
+        if (levelCompleted)
+            return;
+
+        levelCompleted = true;
         Debug.Log("Level Complete!");
+
+        if (levelCompleteUI != null && levelCompleteUI.Show(player))
+            return;
 
         if (!string.IsNullOrWhiteSpace(nextSceneName))
         {
