@@ -5,6 +5,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+/RoverPolarityGame/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 MemoryCaptures/
@@ -15,6 +16,7 @@ Recordings/
 .idea/
 *.csproj
 *.sln
+*.slnx
 *.suo
 *.user
 *.userprefs
