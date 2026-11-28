@@ -354,8 +354,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Tile Palette\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1002
-    y: 726
+    x: 1003
+    y: 24
     width: 536
     height: 260
   m_SerializedDataModeController:
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_Data: 166428
+    m_Data: 0
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 726
+    y: 24
     width: 1001
     height: 260
   m_SerializedDataModeController:
@@ -970,22 +970,21 @@ MonoBehaviour:
       m_Data: 71978
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 65382
-    - m_Data: 71840
-    - m_Data: 71842
-    - m_Data: 71844
-    - m_Data: 71846
-    - m_Data: 71848
-    - m_Data: 71850
-    - m_Data: 123572
-    - m_Data: 127748
-    - m_Data: 127750
-    - m_Data: 127758
-    - m_Data: 1000000000
+    - m_Data: 65394
+    - m_Data: 72038
+    - m_Data: 72040
+    - m_Data: 72042
+    - m_Data: 72044
+    - m_Data: 72046
+    - m_Data: 72048
+    - m_Data: 72050
+    - m_Data: 72052
+    - m_Data: 72054
+    - m_Data: 72056
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Animations
-      m_OriginalName: Animations
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -993,10 +992,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 113770
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 7}
@@ -1015,16 +1014,17 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 65382
-    - m_Data: 71838
-    - m_Data: 71840
-    - m_Data: 71842
-    - m_Data: 71844
-    - m_Data: 71846
-    - m_Data: 71848
-    - m_Data: 71850
-    - m_Data: 71852
-    - m_Data: 71854
+    - m_Data: 65394
+    - m_Data: 72038
+    - m_Data: 72040
+    - m_Data: 72042
+    - m_Data: 72044
+    - m_Data: 72046
+    - m_Data: 72048
+    - m_Data: 72050
+    - m_Data: 72052
+    - m_Data: 72054
+    - m_Data: 72056
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1118,8 +1118,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1540
-    y: 79
+    x: 1541
+    y: 24
     width: 379
     height: 907
   m_SerializedDataModeController:
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 244
     height: 621
   m_SerializedDataModeController:
@@ -1233,8 +1233,8 @@ MonoBehaviour:
       - m_Data: 153020
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: LevelSelectPanel
-        m_OriginalName: LevelSelectPanel
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1242,10 +1242,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 153020
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 6}
@@ -1278,8 +1278,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 245
-    y: 79
+    x: 246
+    y: 24
     width: 1293
     height: 621
   m_SerializedDataModeController:
@@ -1756,7 +1756,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 36.360626, y: 2.2526534, z: 5.9281387}
     speed: 2
-    m_Value: {x: 36.93619, y: 2.828217, z: 5.939907}
+    m_Value: {x: 36.360626, y: 2.2526534, z: 5.9281387}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 27.32882
     speed: 2
-    m_Value: 26.15198
+    m_Value: 27.32882
   m_Ortho:
     m_Target: 1
     speed: 2
